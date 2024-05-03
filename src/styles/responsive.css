@@ -1,0 +1,284 @@
+@media screen and (min-width: 768px) {
+	header {
+		padding-top: 30px;
+	}
+
+	section {
+		margin: 2% 14%;
+	}
+
+	main {
+		padding: 3% 0;
+	}
+
+	nav {
+		padding: 0 38px;
+	}
+
+	nav a {
+		margin: 6px;
+	}
+
+	.translate-btn__first-page {
+		position: fixed;
+		top: 25px;
+		right: 23px;
+		text-align: right;
+		margin-top: 5px;
+	}
+
+	.note-list {
+		display: grid;
+		grid-template-columns: 50% 50%;
+		margin: 35px 0;
+	}
+
+	.note-item {
+		margin: 20px 17px;
+		padding: 17px 25px 10px 25px;
+	}
+
+	.note-item:hover {
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.1);
+		transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+	}
+
+	.note-item__article {
+		padding: 0;
+		margin-bottom: 10px;
+	}
+
+	.note-item__action {
+		padding: 0;
+	}
+
+	.note-item__action a {
+		background-color: var(--background-note-item-btn-action-768px) !important;
+	}
+
+	.note-item__action a:hover {
+		box-shadow: none;
+	}
+
+	.note-item__action a:focus {
+		box-shadow: none;
+	}
+
+	.note-detail {
+		padding-top: 12px;
+		margin-top: 10px;
+	}
+
+	.hero-img {
+		max-width: 30%;
+		height: 530px;
+		position: absolute;
+		top: 9%;
+		left: 12%;
+	}
+
+	.first-page {
+		display: block;
+		padding-left: 50% !important;
+		padding: 0 15%;
+	}
+
+	.bold {
+		padding-top: 8px;
+		padding-left: 35% !important;
+		margin: 1% 0 0 0 !important;
+	}
+
+	.heart-msg p {
+		margin: 0 0 35px 0;
+	}
+
+	.action-button__first-page {
+		margin: 7px 0;
+		padding: 7% 20% 5% 20%;
+	}
+
+	.register-input input {
+		margin: 15px auto !important;
+	}
+
+	.header-register-page {
+		padding: 5px;
+	}
+
+	.register-page {
+		padding: 0 !important;
+	}
+
+	.login-input {
+		padding: 25px 0 0 0 !important;
+	}
+	
+	.login-input button {
+		margin-top: 60px !important;
+	}
+
+	.no-page {
+		padding: 3%;
+	}
+
+	.music-player__container {
+		margin-left: 14%;
+		margin-right: 14%;
+	}
+
+	.lyric-music__container {
+		margin-left: 10%;
+		margin-right: 10%;
+		margin-top: 7%;
+	}
+
+	.modal {
+		padding-top: 8%;
+	}
+
+	.modal-content {
+		max-width: 20%;
+	}
+
+	.song-page__header-box-title {
+		grid-template-columns: 12fr 2fr;
+	}
+}
+
+@media screen and (min-width: 426px) {
+	.note-item__date {
+		flex-basis: 95%;
+	}
+
+	.note-item__action-btn {
+		flex-basis: 5%;
+		font-size: 32px;
+	}
+
+	.header-register-page {
+		max-width: 400px;
+		margin: auto;
+	}
+
+	.register-input input {
+		max-width: 360px;
+		display: block;
+		margin: 15px auto;
+	}
+
+	.register-input button {
+		max-width: 360px;
+		display: block;
+		margin: 45px auto;
+	}
+
+	.modal {
+		padding-top: 20%;
+	}
+
+	.modal-content {
+		max-width: 55%;
+	}
+}
+
+@media screen and (min-width: 570px) {
+	.modal-content {
+		max-width: 40%;
+	}
+}
+
+@media screen and (min-width: 1700px) {
+	.note-list {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}
+
+@media screen and (min-width: 683px) {
+	.modal {
+		padding-top: 15%;
+	}
+
+	.modal-content {
+		max-width: 30%;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.note-item__action a {
+		background-color: white;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.register-input input {
+		margin: 15px auto !important;
+	}
+
+	.register-page {
+		padding: 0 !important;
+	}
+
+	.ost-player__container {
+		margin: 0 19%;
+	}
+
+	.music-player__container {
+		margin-left: 15%;
+		margin-right: 15%;
+	}
+
+	.music-player__link-title {
+		margin-top: 4px;
+		margin-left: 10px;
+	}
+
+	.lyric-music__container {
+		margin-left: 20%;
+		margin-right: 20%;
+		margin-top: 7%;
+	}
+
+	.modal {
+		padding-top: 9%;
+	}
+
+	.playlist__link {
+		margin-left: 12px;
+	}
+
+	.music-player-catalog__body {
+		margin-left: 30px;
+	}
+
+	.music-player-catalog img {
+		filter: blur(10px);
+		-webkit-filter: blur(10px);
+	}
+
+	.playlist-page__header button {
+		margin: 13px 38px 13px 16px;
+	}
+}
+
+@media screen and (min-width: 1400px) {
+	.music-player-catalog__body {
+		margin-left: 40px;
+	}
+}
+
+@media screen and (min-height: 703px) {
+	.bold {
+		margin-top: 30px;
+	}
+
+	.hero-img {
+		height: 510px;
+	}
+}
+
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "icons": [
+    {
+      "src": "/images/favicon/icons/maskable/icon_1024x1024.b5034b719d74917fd8ccf4e771eb007e.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/images/favicon/icons/x-icon/icon_64x64.d0853cca35242a8beb50602830931400.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/favicon/icons/x-icon/icon_32x32.4503f729bbcdfa85956a9e9d950f1b7f.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/favicon/icons/x-icon/icon_24x24.a6cb60c85c2536ac91c84e262df1708a.png",
+      "sizes": "24x24",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/favicon/icons/x-icon/icon_16x16.9b7445ce45c7ffcbfc946e9a21fdce03.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/favicon/icons/ios/icon_512x512.04c98408eba9e4f5283d40191d59930a.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/favicon/icons/ios/icon_384x384.6b5f112f149fbafeafe1ec9bbb194237.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/favicon/icons/ios/icon_256x256.f57b05e669f608bc2c22b4194e8cf677.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/favicon/icons/ios/icon_192x192.e7c9dc21fecaf834c051d575e7c2a9c3.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/favicon/icons/ios/icon_128x128.7f575ba2f88b3e69ea6e6aab7089ea17.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/favicon/icons/ios/icon_96x96.55b649972f92ad1f196f780d32f6cb63.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ],
+  "name": "HeyCa Special 17th",
+  "short_name": "HeyCa!!",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": ".",
+  "description": "HeyCa!! - Special 17th Birthday Gift",
+  "background_color": "#ffffff",
+  "theme_color": "#faf5ff",
+  "prefer_related_applications": false
+}
