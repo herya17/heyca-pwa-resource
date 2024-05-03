@@ -10,7 +10,6 @@ const listHero = [
   './images/heros/heyca-7.webp',
   './images/heros/heyca-8.webp',
   './images/heros/heyca-9.webp',
-  './images/heros/heyca-10.webp',
 ];
 
 export default listHero;
