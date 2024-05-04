@@ -6,11 +6,11 @@ const path = require('path');
 
 module.exports = {
     entry: {
-        app: path.resolve(__dirname, 'src/index.js'),
+        app: path.resolve(__dirname, './src/scripts/index.js'),
     },
     output: {
         filename: 'main~[name].bundle.js',
-        path: path.resolve(__dirname, 'build'),
+        path: path.resolve(__dirname, 'build/'),
         clean: true,
         publicPath: '/',
     },
@@ -73,12 +73,12 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             filename: 'index.html',
-            template: path.resolve(__dirname, 'src/templates/index.html'),
+            template: path.resolve(__dirname, './src/templates/index.html'),
         }),
         new CopyWebpackPlugin({
             patterns: [
                 {
-                    from: path.resolve(__dirname, 'src/public/'),
+                    from: path.resolve(__dirname, './src/public/'),
                     to: path.resolve(__dirname, 'build/'),
                 },
             ],
@@ -98,25 +98,25 @@ module.exports = {
             {
               src: path.resolve('./src/public/images/favicon/icon.png'),
               sizes: [96, 128, 192, 256, 384, 512],
-              destination: path.join('images/favicon/icons', 'ios'),
+              destination: path.join('/images/favicon/icons', 'ios'),
               ios: true,
             },
             {
               src: path.resolve('./src/public/images/favicon/icon.png'),
               sizes: [16, 24, 32, 64],
-              destination: path.join('images/favicon/icons', 'x-icon'),
+              destination: path.join('/images/favicon/icons', 'x-icon'),
               type: 'image/x-icon',
             },
             {
               src: path.resolve('./src/public/images/favicon/icon.png'),
               sizes: '1024x1024',
-              destination: path.join('images/favicon/icons', 'maskable'),
+              destination: path.join('/images/favicon/icons', 'maskable'),
               purpose: 'maskable',
             },
           ],
         }),        
         new InjectManifest({
-          swSrc: './src/sw.js',
+          swSrc: './src/scripts/sw.js',
           swDest: 'sw.js',
           exclude: [
             /\.png$/,
