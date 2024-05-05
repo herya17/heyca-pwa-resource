@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { MdPlayArrow } from 'react-icons/md';
 import SongList from '../components/SongList';
+import EmptyMessage from '../components/EmptyMessage';
 import LocaleContext from '../contexts/LocaleContext';
 
 function PlaylistPage({ title, songLength, songs }) {
@@ -20,7 +21,14 @@ function PlaylistPage({ title, songLength, songs }) {
           <MdPlayArrow className='playlist-page__icon' onClick={() => console.log(songs)} />
         </button>
       </div>
-      <SongList songs={songs} />
+      {
+        songs.length > 0
+          ? <SongList songs={songs} />
+          : <EmptyMessage 
+              message={locale === 'id' 
+                ? `Belum ada lagu ${title}!`
+                : `There are no ${title} yet!`} />
+      }
     </section>
   );
 }
@@ -28,6 +36,7 @@ function PlaylistPage({ title, songLength, songs }) {
 PlaylistPage.propTypes = {
   title: PropTypes.string.isRequired,
   songLength: PropTypes.number,
+  songs: PropTypes.arrayOf(PropTypes.object).isRequired,
 }
 
 export default PlaylistPage;

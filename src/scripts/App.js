@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, Routes, useNavigate } from 'react-router-dom';
 import { getUserLogged, putAccessToken } from './data/notesapi-source';
-import { songs as songsPlaylist } from './data/playlist';
+import { newSongs, songs as allSong } from './data/playlist';
 import FavoriteSongIdb from './data/favorite-song-idb';
 import FirstPage from './pages/FirstPage';
 import RegisterPage from './pages/RegisterPage';
@@ -189,28 +189,32 @@ function App() {
             <Route path='/notes/:id' element={<DetailPage />} />
             <Route
               path='/song'
-              element={<SongPage
-                likedSongLength={songs.length}
-                newSongLength={songsPlaylist.length}
-                playedSongLength={songsPlaylist.length} />} />
-            <Route 
+              element={
+                <SongPage
+                  likedSongLength={songs.length}
+                  newSongLength={newSongs.length}
+                  playedSongLength={allSong.length} />} />
+            <Route
               path='/song-liked'
-              element={<PlaylistPage
-                title={locale === 'id' ? 'Disukai' : 'Liked'}
-                songLength={songs.length}
-                songs={songs} />} />
+              element={
+                <PlaylistPage
+                  title={locale === 'id' ? 'Disukai' : 'Liked'}
+                  songLength={songs.length}
+                  songs={songs} />} />
             <Route
               path='/song-new'
-              element={<PlaylistPage
-                title={locale === 'id' ? 'Hal baru' : 'New thing'}
-                songLength={songsPlaylist.length}
-                songs={songsPlaylist} />} />
+              element={
+                <PlaylistPage
+                  title={locale === 'id' ? 'Hal baru' : 'New thing'}
+                  songLength={newSongs.length}
+                  songs={newSongs} />} />
             <Route
               path='/song-played'
-              element={<PlaylistPage
-                title={locale === 'id' ? 'Baru saja dimainkan' : 'Just played'}
-                songLength={songsPlaylist.length}
-                songs={songsPlaylist} />} />
+              element={
+                <PlaylistPage
+                  title={locale === 'id' ? 'Baru saja dimainkan' : 'Just played'}
+                  songLength={allSong.length}
+                  songs={allSong} />} />
             <Route path='*' element={<NoPage />} />
           </Routes>
         </main>

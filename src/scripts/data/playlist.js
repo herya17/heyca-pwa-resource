@@ -33,6 +33,8 @@ const ost = [
   },
 ];
 
+const newSongs = [];
+
 const songs = [
   {
     id: 0,
@@ -288,4 +290,4 @@ const songs = [
   },
 ];
 
-export { ost, songs };
+export { ost, newSongs,songs };
