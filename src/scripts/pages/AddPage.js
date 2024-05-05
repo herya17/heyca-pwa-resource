@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import NoteInput from '../components/NoteInput';
-import { addNote } from '../data/network-data';
+import { addNote } from '../data/notesapi-source';
 import LocaleContext from '../contexts/LocaleContext';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';

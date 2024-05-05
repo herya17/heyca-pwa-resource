@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import { MdAdd } from 'react-icons/md';
-import { getArchivedNotes } from '../data/network-data';
+import { getArchivedNotes } from '../data/notesapi-source';
 import SearchBar from '../components/SearchBar';
 import ActionButton from '../components/ActionButton';
 import ArchivedPage from './ArchivedPage';

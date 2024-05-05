@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { getNote, deleteNote, archiveNote, unarchiveNote } from '../data/network-data';
+import { getNote, deleteNote, archiveNote, unarchiveNote } from '../data/notesapi-source';
 import NoteDetail from '../components/NoteDetail';
 import EmptyMessage from '../components/EmptyMessage';
 import LocaleContext from '../contexts/LocaleContext';

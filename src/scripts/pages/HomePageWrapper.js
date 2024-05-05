@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import { MdAdd } from 'react-icons/md';
-import { getActiveNotes } from '../data/network-data';
+import { getActiveNotes } from '../data/notesapi-source';
 import HomePage from './HomePage';
 import SearchBar from '../components/SearchBar';
 import ActionButton from '../components/ActionButton';

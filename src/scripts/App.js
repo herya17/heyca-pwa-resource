@@ -1,6 +1,8 @@
 import React from 'react';
 import { Route, Routes, useNavigate } from 'react-router-dom';
-import { getUserLogged, putAccessToken } from './data/network-data';
+import { getUserLogged, putAccessToken } from './data/notesapi-source';
+import { songs as songsPlaylist } from './data/playlist';
+import FavoriteSongIdb from './data/favorite-song-idb';
 import FirstPage from './pages/FirstPage';
 import RegisterPage from './pages/RegisterPage';
 import LoginPage from './pages/LoginPage';
@@ -28,6 +30,7 @@ function App() {
   const [ initializing, setInitializing ] = React.useState(true);
   const [ idLyric, setIdLyric ] = React.useState(0);
   const [ isPlaying, setIsPlaying ] = React.useState(false);
+  const [ songs, setSongs ] = React.useState([]);
 
   React.useEffect(() => {
     const getData = async () => {
@@ -40,9 +43,22 @@ function App() {
       }
     }
 
-    document.documentElement.setAttribute('data-theme', theme);
     getData();
+    document.documentElement.setAttribute('data-theme', theme);
   }, []);
+
+  React.useEffect(() => {
+    const getAllSong = async () => {
+      try {
+        const songs = await FavoriteSongIdb.getAllSong();
+        setSongs(songs);
+      } catch (e) {
+        console.log(e);
+      }
+    }
+
+    getAllSong();
+  }, [songs]);
 
   React.useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme);
@@ -171,10 +187,30 @@ function App() {
             <Route path='/add' element={<AddPage />} />
             <Route path='/archived' element={<ArchivedPageWrapper />} />
             <Route path='/notes/:id' element={<DetailPage />} />
-            <Route path='/song' element={<SongPage />} />
-            <Route path='/song-liked' element={<PlaylistPage title={locale === 'id' ? 'Disukai' : 'Liked'} />} />
-            <Route path='/song-new' element={<PlaylistPage title={locale === 'id' ? 'Hal baru' : 'New thing'} />} />
-            <Route path='/song-played' element={<PlaylistPage title={locale === 'id' ? 'Baru saja dimainkan' : 'Just played'} />} />
+            <Route
+              path='/song'
+              element={<SongPage
+                likedSongLength={songs.length}
+                newSongLength={songsPlaylist.length}
+                playedSongLength={songsPlaylist.length} />} />
+            <Route 
+              path='/song-liked'
+              element={<PlaylistPage
+                title={locale === 'id' ? 'Disukai' : 'Liked'}
+                songLength={songs.length}
+                songs={songs} />} />
+            <Route
+              path='/song-new'
+              element={<PlaylistPage
+                title={locale === 'id' ? 'Hal baru' : 'New thing'}
+                songLength={songsPlaylist.length}
+                songs={songsPlaylist} />} />
+            <Route
+              path='/song-played'
+              element={<PlaylistPage
+                title={locale === 'id' ? 'Baru saja dimainkan' : 'Just played'}
+                songLength={songsPlaylist.length}
+                songs={songsPlaylist} />} />
             <Route path='*' element={<NoPage />} />
           </Routes>
         </main>

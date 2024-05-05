@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import { MdAdd } from 'react-icons/md';
 import { songs } from '../data/playlist';
@@ -9,7 +10,7 @@ import LyricMusic from '../components/LyricMusic';
 import ActionButton from '../components/ActionButton';
 import LocaleContext from '../contexts/LocaleContext';
 
-function SongPage() {
+function SongPage({ likedSongLength, newSongLength, playedSongLength, }) {
   const { idLyricContextValue, localeContextValue } = React.useContext(LocaleContext);
   const { idLyric } = idLyricContextValue;
   const { locale } = localeContextValue;
@@ -46,19 +47,19 @@ function SongPage() {
           img='./images/icons/favorite'
           url='/song-liked'
           text={locale === 'id' ? 'Disukai' : 'Liked'}
-          length={0} />
+          length={likedSongLength} />
         <PlaylistButton
           duration='300'
           img='./images/icons/music'
           url='/song-new'
           text={locale === 'id' ? 'Hal baru' : 'New thing'}
-          length={0} />
+          length={newSongLength} />
         <PlaylistButton
           duration='400'
           img='./images/icons/timer'
           url='/song-played'
           text={locale === 'id' ? 'Baru saja dimainkan' : 'Just played'}
-          length={36} />
+          length={playedSongLength} />
       </div>
       <LyricMusic isLoading={isLoading} lyric={data.lyric} />
       <Link to='/add'>
@@ -66,6 +67,12 @@ function SongPage() {
       </Link>
     </section>
   );
+}
+
+SongPage.propTypes = {
+  likedSongLength: PropTypes.number.isRequired,
+  newSongLength: PropTypes.number.isRequired,
+  playedSongLength: PropTypes.number.isRequired,
 }
 
 export default SongPage;

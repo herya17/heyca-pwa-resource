@@ -1,7 +1,16 @@
-import CONFIG from '../global/config';
+import API_ENDPOINT from '../global/api-endpoint';
 import Swal from 'sweetalert2';
 
-const { BASE_URL } = CONFIG;
+const {
+  LOGIN,
+  REGISTER,
+  GET_USER_LOGGED,
+  NOTES,
+  GET_ARCHIVED,
+  GET_DETAIL,
+  ARCHIVE_NOTE,
+  UNARCHIVE_NOTE,
+} = API_ENDPOINT;
 
 function getAccessToken() {
   return localStorage.getItem('accessToken');
@@ -26,7 +35,7 @@ async function fetchWithToken(url, options = {}) {
 }
 
 async function login({ email, password }) {
-  const response = await fetch(`${BASE_URL}/login`, {
+  const response = await fetch(LOGIN, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -42,7 +51,6 @@ async function login({ email, password }) {
       text: responseJson.message,
       showConfirmButton: true,
     });
-    // alert(responseJson.message);
     return { error: true, data: null };
   }
 
@@ -50,7 +58,7 @@ async function login({ email, password }) {
 }
 
 async function register({ name, email, password }) {
-  const response = await fetch(`${BASE_URL}/register`, {
+  const response = await fetch(REGISTER, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -66,7 +74,6 @@ async function register({ name, email, password }) {
       text: responseJson.message,
       showConfirmButton: true,
     });
-    // alert(responseJson.message);
     return { error: true };
   }
 
@@ -75,7 +82,7 @@ async function register({ name, email, password }) {
 
 async function getUserLogged() {
   try {
-    const response = await fetchWithToken(`${BASE_URL}/users/me`);
+    const response = await fetchWithToken(GET_USER_LOGGED);
     const responseJson = await response.json();
 
     if (responseJson.status !== 'success') {
@@ -89,7 +96,7 @@ async function getUserLogged() {
 }
 
 async function addNote({ title, body }) {
-  const response = await fetchWithToken(`${BASE_URL}/notes`, {
+  const response = await fetchWithToken(NOTES, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -107,7 +114,7 @@ async function addNote({ title, body }) {
 }
 
 async function getActiveNotes() {
-  const response = await fetchWithToken(`${BASE_URL}/notes`);
+  const response = await fetchWithToken(NOTES);
   const responseJson = await response.json();
 
   if (responseJson.status !== 'success') {
@@ -118,7 +125,7 @@ async function getActiveNotes() {
 }
 
 async function getArchivedNotes() {
-  const response = await fetchWithToken(`${BASE_URL}/notes/archived`);
+  const response = await fetchWithToken(GET_ARCHIVED);
   const responseJson = await response.json();
 
   if (responseJson.status !== 'success') {
@@ -129,7 +136,7 @@ async function getArchivedNotes() {
 }
 
 async function getNote(id) {
-  const response = await fetchWithToken(`${BASE_URL}/notes/${id}`);
+  const response = await fetchWithToken(GET_DETAIL(id));
   const responseJson = await response.json();
 
   if (responseJson.status !== 'success') {
@@ -140,7 +147,7 @@ async function getNote(id) {
 }
 
 async function archiveNote(id) {
-  const response = await fetchWithToken(`${BASE_URL}/notes/${id}/archive`, {
+  const response = await fetchWithToken(ARCHIVE_NOTE(id), {
     method: 'POST',
   });
 
@@ -154,7 +161,7 @@ async function archiveNote(id) {
 }
 
 async function unarchiveNote(id) {
-  const response = await fetchWithToken(`${BASE_URL}/notes/${id}/unarchive`, {
+  const response = await fetchWithToken(UNARCHIVE_NOTE(id), {
     method: 'POST',
   });
 
@@ -168,7 +175,7 @@ async function unarchiveNote(id) {
 }
 
 async function deleteNote(id) {
-  const response = await fetchWithToken(`${BASE_URL}/notes/${id}`, {
+  const response = await fetchWithToken(GET_DETAIL(id), {
     method: 'DELETE',
   });
 

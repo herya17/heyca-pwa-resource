@@ -1,11 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { MdPlayArrow } from 'react-icons/md';
-import { songs } from '../data/playlist';
 import SongList from '../components/SongList';
 import LocaleContext from '../contexts/LocaleContext';
 
-function PlaylistPage({ title, lengthSong = '36' }) {
+function PlaylistPage({ title, songLength, songs }) {
   const { localeContextValue } = React.useContext(LocaleContext);
   const { locale } = localeContextValue;
 
@@ -14,7 +13,7 @@ function PlaylistPage({ title, lengthSong = '36' }) {
       <div className='playlist-page__header'>
         <div className='playlist-page__header-box-title'>
           <p className='playlist-page__header-title'>
-            {title}<span>{lengthSong} {locale === 'id' ? 'lagu' : 'songs'}</span>
+            {title}<span>{songLength} {locale === 'id' ? 'lagu' : 'songs'}</span>
           </p>
         </div>
         <button>
@@ -28,7 +27,7 @@ function PlaylistPage({ title, lengthSong = '36' }) {
 
 PlaylistPage.propTypes = {
   title: PropTypes.string.isRequired,
-  lengthSong: PropTypes.string,
+  songLength: PropTypes.number,
 }
 
 export default PlaylistPage;
