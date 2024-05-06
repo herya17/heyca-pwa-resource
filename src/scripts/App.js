@@ -28,7 +28,7 @@ function App() {
   });
   const [ authedUser, setAuthedUser ] = React.useState(null);
   const [ initializing, setInitializing ] = React.useState(true);
-  const [ idLyric, setIdLyric ] = React.useState(0);
+  const [ index, setIndex ] = React.useState(0);
   const [ isPlaying, setIsPlaying ] = React.useState(false);
   const [ songs, setSongs ] = React.useState([]);
 
@@ -93,15 +93,15 @@ function App() {
     }
   }, [theme]);
 
-  const toggleIdLyric = (id) => {
-    setIdLyric(id);
+  const toggleIndex = (index) => {
+    setIndex(index);
   }
 
-  const idLyricContextValue = React.useMemo(() => {
+  const indexContextValue = React.useMemo(() => {
     return {
-      idLyric, toggleIdLyric,
+      index, toggleIndex,
     }
-  }, [idLyric]);
+  }, [index]);
 
   const toggleIsPlaying = () => {
     setIsPlaying(prev => !prev);
@@ -117,10 +117,10 @@ function App() {
     return {
       localeContextValue,
       themeContextValue,
-      idLyricContextValue,
+      indexContextValue,
       isPlayingContextValue,
     }
-  }, [ locale, theme, idLyric, isPlaying, ]);
+  }, [ locale, theme, index, isPlaying, ]);
 
   const onLoginSuccess = async ({ accessToken }) => {
     putAccessToken(accessToken);

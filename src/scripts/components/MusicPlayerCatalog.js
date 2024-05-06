@@ -26,7 +26,7 @@ function MusicPlayerCatalog({ song }) {
 
   React.useEffect(() => {
     const isSongExist = async (id) => {
-      const isSongExist = await FavoriteSongIdb.getSong(id + 1);
+      const isSongExist = await FavoriteSongIdb.getSong(id);
       if (isSongExist) {
         setIsFavorite(true);
       } else {
@@ -40,11 +40,11 @@ function MusicPlayerCatalog({ song }) {
   const btnFavoriteListener = async (song) => {
     await FavoriteSongIdb.putSong({ 
       ...song,
-      id: song.id + 1,
+      id: song.id,
     });
     setIsFavorite(true);
     Toastify({
-      text: `${locale === 'id' ? 'Tambahkan favorit' : 'Add favorite'}`,
+      text: `${locale === 'id' ? 'Favorit ditambah' : 'Favorite added'}`,
       duration: 2000,
       gravity: 'bottom',
       position: 'center',
@@ -54,16 +54,16 @@ function MusicPlayerCatalog({ song }) {
         borderRadius: '21px',
         padding: '15px 12px 18px 18px',
         fontSize: '17px',
-        marginBottom: '10px',
+        marginBottom: '20px',
       }
     }).showToast();
   }
 
   const btnUnfavoriteListener = async (id) => {
-    await FavoriteSongIdb.deleteSong(id + 1);
+    await FavoriteSongIdb.deleteSong(id);
     setIsFavorite(false);
     Toastify({
-      text: `${locale === 'id' ? 'Hapus favorit' : 'Remove favorite'}`,
+      text: `${locale === 'id' ? 'Favorit dihapus' : 'Favorite deleted'}`,
       duration: 2000,
       gravity: 'bottom',
       position: 'center',
@@ -73,7 +73,7 @@ function MusicPlayerCatalog({ song }) {
         borderRadius: '21px',
         padding: '15px 12px 18px 18px',
         fontSize: '17px',
-        marginBottom: '10px',
+        marginBottom: '20px',
       }
     }).showToast();
   }

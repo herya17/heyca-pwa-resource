@@ -11,8 +11,8 @@ import LocaleContext from '../contexts/LocaleContext';
 
 function MusicPlayer() {
   const audioPlayer = React.useRef();
-  const { idLyricContextValue, isPlayingContextValue } = React.useContext(LocaleContext);
-  const { toggleIdLyric } = idLyricContextValue;
+  const { indexContextValue, isPlayingContextValue } = React.useContext(LocaleContext);
+  const { toggleIndex } = indexContextValue;
   const { isPlaying, toggleIsPlaying } = isPlayingContextValue;
   // const [ isPlaying, setIsPlaying ] = React.useState(false);
   const [ index, setIndex ] = React.useState(0);
@@ -67,7 +67,7 @@ function MusicPlayer() {
       setCurrentTitle(songs[index - 1].title);
       setCurrentSinger(songs[index - 1].singer);
       setCurrentImg(songs[index - 1].img);
-      toggleIdLyric(songs[index - 1].id);
+      toggleIndex(index - 1);
 
       if (isPlaying) {
         audioPlayer.current.play();
@@ -82,7 +82,7 @@ function MusicPlayer() {
       setCurrentTitle(songs[0].title);
       setCurrentSinger(songs[0].singer);
       setCurrentImg(songs[0].img);
-      toggleIdLyric(songs[0].id);
+      toggleIndex(0);
 
       if (isPlaying) {
         audioPlayer.current.play();
@@ -93,7 +93,7 @@ function MusicPlayer() {
       setCurrentTitle(songs[index + 1].title);
       setCurrentSinger(songs[index + 1].singer);
       setCurrentImg(songs[index + 1].img);
-      toggleIdLyric(songs[index + 1].id);
+      toggleIndex(index + 1);
 
       if (isPlaying) {
         audioPlayer.current.play();

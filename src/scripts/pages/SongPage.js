@@ -11,17 +11,17 @@ import ActionButton from '../components/ActionButton';
 import LocaleContext from '../contexts/LocaleContext';
 
 function SongPage({ likedSongLength, newSongLength, playedSongLength, }) {
-  const { idLyricContextValue, localeContextValue } = React.useContext(LocaleContext);
-  const { idLyric } = idLyricContextValue;
+  const { indexContextValue, localeContextValue } = React.useContext(LocaleContext);
+  const { index } = indexContextValue;
   const { locale } = localeContextValue;
   const [ data, setData ] = React.useState({song: {}, lyric: {}});
   const [ isLoading, setLoading ] = React.useState(true);
 
   React.useEffect(() => {
-    const getData = (id) => {
+    const getData = (index) => {
       setLoading(true);
-      const currentSong = songs[id];
-      const currentLyric = lyrics[id];
+      const currentSong = songs[index];
+      const currentLyric = lyrics[index];
       const currentData = {
         song: currentSong,
         lyric: currentLyric,
@@ -33,8 +33,8 @@ function SongPage({ likedSongLength, newSongLength, playedSongLength, }) {
       }, 860);
     }
 
-    getData(idLyric);
-  }, [idLyric]);
+    getData(index);
+  }, [index]);
 
   return (
     <section>

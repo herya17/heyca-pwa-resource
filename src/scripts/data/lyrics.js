@@ -1,6 +1,6 @@
 const lyrics = [
   {
-    id: 0,
+    id: 1,
     title: 'Sungguh Aku Mencintaimu',
     text: `
 Kekasih, hati ini tak terganti
@@ -72,7 +72,7 @@ hmmm
     `,
   },
   {
-    id: 1,
+    id: 2,
     title: 'Sumpah Ku Mencintaimu',
     text: `
 Sesungguhnya, dan akulah pemilik
@@ -153,7 +153,7 @@ Sumpah mati, aku cinta
     `,
   },
   {
-    id: 2,
+    id: 3,
     title: 'Cinta Luar Biasa',
     text: `
 Waktu pertama kali
@@ -256,7 +256,7 @@ tulus padamu
     `,
   },
   {
-    id: 3,
+    id: 4,
     title: 'Untuk Mencintaimu',
     text: `
 Apa yang harus aku lakukan
@@ -329,7 +329,7 @@ hu-uu
     `,
   },
   {
-    id: 4,
+    id: 5,
     title: 'Menemukanmu',
     text: `
 Separuh langkahku saat ini
@@ -376,7 +376,7 @@ kita bersama 'tuk selamanya
     `,
   },
   {
-    id: 5,
+    id: 6,
     title: 'Melukis Senja',
     text: `
 Aku mengerti
@@ -479,7 +479,7 @@ Hingga kau bahagia
     `,
   },
   {
-    id: 6,
+    id: 7,
     title: 'Cinta Pertama Dan Terakhir',
     text: `
 Sebelumnya tak ada yang mampu
@@ -581,7 +581,7 @@ Hu-hu, hu-uh-uh-hu
     `,
   },
   {
-    id: 7,
+    id: 8,
     title: 'Hingga Tua Bersama',
     text: `
 Yeah-yeah
@@ -675,7 +675,7 @@ oh-wo-wo-oh
     `,
   },
   {
-    id: 8,
+    id: 9,
     title: 'Sampai Menutup Mata',
     text: `
 Embun di pagi buta
@@ -745,7 +745,7 @@ Sampai ku menutup mata
     `,
   },
   {
-    id: 9,
+    id: 10,
     title: 'Janji Setia',
     text: `
 Kini aku mengerti, semua ini
@@ -836,7 +836,7 @@ Ho-oh-oh-ho
     `,
   },
   {
-    id: 10,
+    id: 11,
     title: 'Merasa Indah',
     text: `
 Kemarin engkau nyatakan hati
@@ -926,7 +926,7 @@ Ho-oh-oh
     `,
   },
   {
-    id: 11,
+    id: 12,
     title: 'Kesepian',
     text: `
 Dimana? Kamu dimana?
@@ -989,7 +989,7 @@ Agar aku tak kesepian, ha-ah
     `,
   },
   {
-    id: 12,
+    id: 13,
     title: 'Merindukanmu',
     text: `
 Saat aku tertawa diatas semua
@@ -1047,7 +1047,7 @@ Dengarkan aku, 'ku merindukanmu
     `,
   },
   {
-    id: 13,
+    id: 14,
     title: 'Gagal Bersembunyi',
     text: `
 Ternyata telah lama kita pisah
@@ -1122,7 +1122,7 @@ Sementara cinta masih tersisa
     `,
   },
   {
-    id: 14,
+    id: 15,
     title: 'Hati Lain Di Hatimu',
     text: `
 Mungkin salahku yang telah
@@ -1220,7 +1220,7 @@ Ku tak apa jika kau bahagia
     `,
   },
   {
-    id: 15,
+    id: 16,
     title: 'Ego',
     text: `
 Cinta yang dulu kulewati, begitu
@@ -1300,7 +1300,7 @@ Ku tak ingin pisah dengannya
     `,
   },
   {
-    id: 16,
+    id: 17,
     title: 'Tak Dianggap',
     text: `
 Aku selalu t'rus berusaha
@@ -1383,7 +1383,7 @@ terluka
     `,
   },
   {
-    id: 17,
+    id: 18,
     title: 'Pililah Yang Terbaik',
     text: `
 Untuk apa terus memaksa
@@ -1469,7 +1469,7 @@ Pilihan yang terbaik
     `,
   },
   {
-    id: 18,
+    id: 19,
     title: 'Aku Bukan Untukmu',
     text: `
 Dahulu kau mencintaiku
@@ -1569,7 +1569,7 @@ Untuk diriku
     `,
   },
   {
-    id: 19,
+    id: 20,
     title: 'Luka Di Sini',
     text: `
 Dulu pernah ada cinta
@@ -1636,7 +1636,7 @@ Ho-oh-oh
     `,
   },
   {
-    id: 20,
+    id: 21,
     title: 'Ingin Hilang Ingatan',
     text: `
 Menghilanglah dari kehidupanku
@@ -1740,7 +1740,7 @@ Ku ingin hilang ingatan
     `,
   },
   {
-    id: 21,
+    id: 22,
     title: 'Waktu Yang Salah',
     text: `
 Jangan tanyakan perasaanku
@@ -1835,7 +1835,7 @@ Di waktu yang salah
     `,
   },
   {
-    id: 22,
+    id: 23,
     title: 'Cinta Kau Dimana',
     text: `
 Cinta, kau di mana?
@@ -1903,7 +1903,7 @@ Biarkan ku pendam perasaanku ini
     `,
   },
   {
-    id: 23,
+    id: 24,
     title: 'Belum Siap Kehilangan',
     text: `
 Sewindu sudah
@@ -2007,7 +2007,7 @@ Hm-hm
     `,
   },
   {
-    id: 24,
+    id: 25,
     title: 'Ikhlasku Bahagiamu',
     text: `
 Suatu masa kita jumpa
@@ -2102,7 +2102,7 @@ takkan ada lagi air mata
     `,
   },
   {
-    id: 25,
+    id: 26,
     title: 'Aku Bukan Jodohnya',
     text: `
 Ini salahku
@@ -2188,7 +2188,7 @@ Aku bukan jodohnya
     `,
   },
   {
-    id: 26,
+    id: 27,
     title: 'Bohongi Hati',
     text: `
 Aku tersiksa melihat
@@ -2289,7 +2289,7 @@ bisa tanpamu
     `,
   },
   {
-    id: 27,
+    id: 28,
     title: 'Mesin Waktu',
     text: `
 Kalau harus ku mengingatmu
@@ -2370,7 +2370,7 @@ waktu
     `,
   },
   {
-    id: 28,
+    id: 29,
     title: 'Doa Untuk Kamu',
     text: `
 Ada resah dalam hati
@@ -2455,7 +2455,7 @@ Hingga Tuhan menolong kita
     `,
   },
   {
-    id: 29,
+    id: 30,
     title: 'Pura Pura Lupa',
     text: `
 Pernah aku jatuh hati
@@ -2544,7 +2544,7 @@ Biar aku yang pura pura lupa
     `,
   },
   {
-    id: 30,
+    id: 31,
     title: 'Trauma',
     text: `
 Ku pernah coba bertahan
@@ -2635,7 +2635,7 @@ Cinta tak harus saling miliki
     `,
   },
   {
-    id: 31,
+    id: 32,
     title: 'Akhir Tak Bahagia',
     text: `
 Malam ini
@@ -2694,7 +2694,7 @@ Walau berakhir tak bahagia
     `,
   },
   {
-    id: 32,
+    id: 33,
     title: 'Jiwa Yang Bersedih',
     text: `
 (Ta na)
@@ -2835,7 +2835,7 @@ Kau pasti kan didengar
     `,
   },
   {
-    id: 33,
+    id: 34,
     title: 'Tapi Tahukah Kamu',
     text: `
 Bagaikan bintang di langit
@@ -2930,7 +2930,7 @@ Lebih baik menghilang
     `,
   },
   {
-    id: 34,
+    id: 35,
     title: 'Cinta Tak Mungkin Berhenti',
     text: `
 Tak ada kisah tentang cinta
@@ -3014,7 +3014,7 @@ Walau kini aku harus pergi
     `,
   },
   {
-    id: 35,
+    id: 36,
     title: 'Jodoh Pasti Bertemu',
     text: `
 Andai engkau tahu
