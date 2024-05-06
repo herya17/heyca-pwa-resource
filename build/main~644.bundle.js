@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkHeyCa_=self.webpackChunkHeyCa_||[]).push([[644],{2644:(e,t,r)=>{r.d(t,{YrT:()=>o});var n=r(4084);function o(e){return(0,n.k5)({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"polyline",attr:{points:"20 6 9 17 4 12"}}]})(e)}}}]);
-//# sourceMappingURL=main~644.bundle.js.map
