@@ -1,5 +1,7 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const FixStyleOnlyEntriesPlugin = require('webpack-fix-style-only-entries');
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const WebpackPwaManifest = require('webpack-pwa-manifest');
 const { InjectManifest } = require('workbox-webpack-plugin');
@@ -8,6 +10,7 @@ const path = require('path');
 module.exports = {
     entry: {
         app: path.resolve(__dirname, './src/scripts/index.js'),
+        styles: ['./src/styles/style.css', './src/styles/responsive.css'],
     },
     output: {
         filename: 'main~[name].bundle.js',
@@ -19,7 +22,10 @@ module.exports = {
         rules: [
             {
                 test: /\.css$/,
-                loader: ExtractTextPlugin.extract('style-loader', 'css-loader'),
+                use: [
+                  MiniCssExtractPlugin.loader, 'css-loader',
+                  MiniCssExtractPlugin.loader, 'style-loader',
+                ],
             },
             {
               test: /\.(js|jsx)$/,
@@ -77,7 +83,8 @@ module.exports = {
                 },
             ],
         }),
-        new ExtractTextPlugin('./src/styles/style.css'),
+        new MiniCssExtractPlugin({ filename: '[name].[chunkhash:8].css' }),
+        new FixStyleOnlyEntriesPlugin(),
         new OptimizeCssAssetsPlugin({
           assetNameRegExp: /\.optimize\.css$/g,
           cssProcessor: require('cssnano'),
