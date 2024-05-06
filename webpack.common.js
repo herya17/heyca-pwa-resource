@@ -1,5 +1,6 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
+const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const WebpackPwaManifest = require('webpack-pwa-manifest');
 const { InjectManifest } = require('workbox-webpack-plugin');
 const path = require('path');
@@ -18,14 +19,7 @@ module.exports = {
         rules: [
             {
                 test: /\.css$/,
-                use: [
-                    {
-                        loader: 'style-loader',
-                    },
-                    {
-                        loader: 'css-loader',
-                    },
-                ],
+                loader: ExtractTextPlugin.extract('style-loader', 'css-loader'),
             },
             {
               test: /\.(js|jsx)$/,
@@ -82,6 +76,15 @@ module.exports = {
                     to: path.resolve(__dirname, 'build/'),
                 },
             ],
+        }),
+        new ExtractTextPlugin('./src/styles/style.css'),
+        new OptimizeCssAssetsPlugin({
+          assetNameRegExp: /\.optimize\.css$/g,
+          cssProcessor: require('cssnano'),
+          cssProcessorPluginOptions: {
+            preset: ['default', { discardComments: { removeAll: true } }],
+          },
+          canPrint: true
         }),
         new WebpackPwaManifest({
           name: 'HeyCa Special 17th',
