@@ -26,8 +26,8 @@ const Carousel = ({ listImage }) => {
 
   return (
     <img
-      className='hero-img animate-fading lazyload'
       src={images[index]}
+      className='hero-img animate-fading lazyload'
       alt='Slideshow of memories' />
   );
 }
@@ -37,3 +37,10 @@ Carousel.propTypes = {
 }
 
 export default Carousel;
+
+{/* <img class="heros__detail lazyload"
+          src="./images/skeleton/placeholder.png"
+          data-src="${CONFIG.BASE_IMAGE_URL_MEDIUM}/${this._restaurant.pictureId}"
+          data-srcset="${CONFIG.BASE_IMAGE_URL}/${this._restaurant.pictureId} 480w, ${CONFIG.BASE_IMAGE_URL_MEDIUM}/${this._restaurant.pictureId} 920w"
+          data-sizes="(max-width: 600px) 480px, 920px"
+          alt="${this._restaurant.name}" /> */}

@@ -122,8 +122,8 @@ function MusicPlayer() {
     <div className='music-player__container'>
       <div className='music-player__box-img'>
         <img 
-          className='music-player__img animate-fading__player lazyload'
           src={currentImg}
+          className='music-player__img animate-fading__player lazyload'
           alt=''
           onClick={() => onImageClickedHandler(currentImg)} />
         <div id='myModal' className='modal'>

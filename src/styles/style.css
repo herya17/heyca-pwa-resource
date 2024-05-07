@@ -112,7 +112,7 @@
 	--border-header-home: 1px solid #313741;
 
 	--background-player: #19202b;
-	--background-ost-player: #313741;
+	--background-ost-player: #19202b;/*#313741*/
 	--border-player: 1px solid #19202b;
 	--border-ost-player: 1px solid #f3f3f34d;
 	/* --font-title-player: #9b9b9b; */

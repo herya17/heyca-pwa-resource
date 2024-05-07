@@ -4,14 +4,7 @@ import { MdFavorite, MdFavoriteBorder, MdMoreVert } from 'react-icons/md';
 import FavoriteSongIdb from '../data/favorite-song-idb';
 
 function SongItem({ id, img, title, singer }) {
-  const [ isLoading, setIsLoading ] = React.useState(true);
   const [ isFavorite, setIsFavorite ] = React.useState(false);
-
-  React.useEffect(() => {
-    setTimeout(() => {
-      setIsLoading(false);
-    }, 400);
-  }, []);
 
   React.useEffect(() => {
     const isSongExist = async (id) => {
@@ -28,11 +21,11 @@ function SongItem({ id, img, title, singer }) {
 
   return (
     <div className='song-item'>
-      {
-        isLoading
-          ? <div className='animate-fading__playlist skeleton-song-item-img'></div>
-          : <img className='animate-fading__playlist lazyload' src='./images/skeleton/placeholder.webp' data-src={img} alt='' />
-      }
+      <img
+        src='./images/skeleton/placeholder.webp'
+        data-src={img}
+        className='animate-fading__playlist lazyload'
+        alt='' />
       <div className='song-item__body'>
         <div className='song-item__box-title'>
           <p className='song-item__title'>{title}</p>

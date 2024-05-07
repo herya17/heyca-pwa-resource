@@ -1,7 +1,6 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const FixStyleOnlyEntriesPlugin = require('webpack-fix-style-only-entries');
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const WebpackPwaManifest = require('webpack-pwa-manifest');
 const { InjectManifest } = require('workbox-webpack-plugin');
@@ -84,11 +83,13 @@ module.exports = {
                 {
                     from: path.resolve(__dirname, './src/public/'),
                     to: path.resolve(__dirname, 'build/'),
+                    globOptions: {
+                        ignore: ['**/heros/**'],
+                    },
                 },
             ],
         }),
         new MiniCssExtractPlugin({ filename: '[name].[chunkhash:8].css' }),
-        // new FixStyleOnlyEntriesPlugin(),
         new OptimizeCssAssetsPlugin({
           assetNameRegExp: /\.optimize\.css$/g,
           cssProcessor: require('cssnano'),

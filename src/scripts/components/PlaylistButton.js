@@ -21,8 +21,8 @@ function PlaylistButton({ duration, img, url, text, length }) {
         isLoading
           ? <div className='animate-fading__playlist skeleton__playlist-img'></div>
           : <img
-              className='animate-fading__playlist'
               src={`${theme === 'light' ? `${img}.webp` : `${img}-dark.webp`}`}
+              className='animate-fading__playlist lazyload'
               alt='' />
       }
       <Link to={url} className='playlist__link'>

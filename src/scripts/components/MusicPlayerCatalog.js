@@ -82,10 +82,10 @@ function MusicPlayerCatalog({ song }) {
     <div className='playlist music-player-catalog'>
       {
         isLoading
-          ? <div className='animate-fading__playlist skeleton__playlist-img'></div>
+          ? <div className='skeleton__playlist-img'></div>
           : <img
-              className='animate-fading__playlist'
               src={song.img}
+              className='animate-fading__playlist lazyload'
               alt='' />
       }
       {
