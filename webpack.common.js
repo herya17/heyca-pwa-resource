@@ -83,9 +83,9 @@ module.exports = {
                 {
                     from: path.resolve(__dirname, './src/public/'),
                     to: path.resolve(__dirname, 'build/'),
-                    globOptions: {
-                        ignore: ['**/heros/**'],
-                    },
+                    // globOptions: {
+                    //     ignore: ['**/heros/**'],
+                    // },
                 },
             ],
         }),
