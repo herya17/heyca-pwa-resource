@@ -1,13 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { MdPlayArrow } from 'react-icons/md';
+import { MdPlayArrow, MdPause } from 'react-icons/md';
 import SongList from '../components/SongList';
 import EmptyMessage from '../components/EmptyMessage';
 import LocaleContext from '../contexts/LocaleContext';
 
-function PlaylistPage({ title, songLength, songs }) {
-  const { localeContextValue } = React.useContext(LocaleContext);
+function PlaylistPage({ title, songLength, isPlaying, toggleIsPlaying, songs }) {
+  const { localeContextValue, isPlayingContextValue } = React.useContext(LocaleContext);
   const { locale } = localeContextValue;
+  // const { isPlaying, toggleIsPlaying } = isPlayingContextValue;
 
   return (
     <section>
@@ -17,9 +18,15 @@ function PlaylistPage({ title, songLength, songs }) {
             {title}<span>{songLength} {locale === 'id' ? 'lagu' : 'songs'}</span>
           </p>
         </div>
-        <button>
-          <MdPlayArrow className='playlist-page__icon' onClick={() => console.log(songs)} />
-        </button>
+        {
+          isPlaying
+            ? (<button>
+                <MdPause className='playlist-page__icon' onClick={() => toggleIsPlaying(false)} />
+              </button>)
+            : (<button>
+                <MdPlayArrow className='playlist-page__icon' onClick={() => toggleIsPlaying(true)} />
+              </button>)
+        }
       </div>
       {
         songs.length > 0

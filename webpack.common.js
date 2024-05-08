@@ -51,6 +51,7 @@ module.exports = {
         historyApiFallback: true,
     },
     optimization: {
+      runtimeChunk: 'single',
       splitChunks: {
         chunks: 'all',
         minSize: 20000,

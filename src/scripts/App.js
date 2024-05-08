@@ -30,7 +30,12 @@ function App() {
   const [ initializing, setInitializing ] = React.useState(true);
   const [ index, setIndex ] = React.useState(0);
   const [ isPlaying, setIsPlaying ] = React.useState(false);
+  const [ likedIsPlaying, setLikedIsPlaying ] = React.useState(false);
+  const [ newIsPlaying, setNewIsPlaying ] = React.useState(false);
+  const [ allIsPlaying, setAllIsPlaying ] = React.useState(false);
   const [ songs, setSongs ] = React.useState([]);
+
+  const audioPlayer = React.useRef();
 
   React.useEffect(() => {
     const getData = async () => {
@@ -122,6 +127,23 @@ function App() {
     }
   }, [ locale, theme, index, isPlaying, ]);
 
+
+
+  const toggleLikedSongPlay = (value) => {
+    setLikedIsPlaying(prev => !prev);
+    setIsPlaying(value);
+  }
+
+  const toggleNewSongPlay = (value) => {
+    setNewIsPlaying(prev => !prev);
+    setIsPlaying(value);
+  }
+
+  const toggleAllSongPlay = (value) => {
+    setAllIsPlaying(prev => !prev);
+    setIsPlaying(value);
+  }
+
   const onLoginSuccess = async ({ accessToken }) => {
     putAccessToken(accessToken);
     try {
@@ -200,6 +222,8 @@ function App() {
                 <PlaylistPage
                   title={locale === 'id' ? 'Disukai' : 'Liked'}
                   songLength={songs.length}
+                  isPlaying={likedIsPlaying}
+                  toggleIsPlaying={toggleLikedSongPlay}
                   songs={songs} />} />
             <Route
               path='/song-new'
@@ -207,6 +231,8 @@ function App() {
                 <PlaylistPage
                   title={locale === 'id' ? 'Hal baru' : 'New thing'}
                   songLength={newSongs.length}
+                  isPlaying={newIsPlaying}
+                  toggleIsPlaying={toggleNewSongPlay}
                   songs={newSongs} />} />
             <Route
               path='/song-played'
@@ -214,6 +240,8 @@ function App() {
                 <PlaylistPage
                   title={locale === 'id' ? 'Baru saja dimainkan' : 'Just played'}
                   songLength={allSong.length}
+                  isPlaying={allIsPlaying}
+                  toggleIsPlaying={toggleAllSongPlay}
                   songs={allSong} />} />
             <Route path='*' element={<NoPage />} />
           </Routes>

@@ -1,4 +1,5 @@
 import React from 'react';
+// import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import {
   MdPlayArrow,
@@ -171,5 +172,9 @@ function MusicPlayer() {
     </div>
   );
 }
+
+// MusicPlayer.propTypes = {
+//   songs: PropTypes.arrayOf(PropTypes.object).isRequired,
+// }
 
 export default MusicPlayer;
