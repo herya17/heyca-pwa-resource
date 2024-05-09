@@ -1,7 +1,7 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
+// const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const WebpackPwaManifest = require('webpack-pwa-manifest');
 const { InjectManifest } = require('workbox-webpack-plugin');
 const path = require('path');
@@ -91,14 +91,14 @@ module.exports = {
             ],
         }),
         new MiniCssExtractPlugin({ filename: '[name].[chunkhash:8].css' }),
-        new OptimizeCssAssetsPlugin({
-          assetNameRegExp: /\.optimize\.css$/g,
-          cssProcessor: require('cssnano'),
-          cssProcessorPluginOptions: {
-            preset: ['default', { discardComments: { removeAll: true } }],
-          },
-          canPrint: true
-        }),
+        // new OptimizeCssAssetsPlugin({
+        //   assetNameRegExp: /\.optimize\.css$/g,
+        //   cssProcessor: require('cssnano'),
+        //   cssProcessorPluginOptions: {
+        //     preset: ['default', { discardComments: { removeAll: true } }],
+        //   },
+        //   canPrint: true
+        // }),
         new WebpackPwaManifest({
           name: 'HeyCa Special 17th',
           short_name: 'HeyCa!!',
