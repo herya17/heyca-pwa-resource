@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { MdFavorite, MdFavoriteBorder, MdMoreVert } from 'react-icons/md';
+import { MdFavorite, MdMoreVert } from 'react-icons/md';
 import FavoriteSongIdb from '../data/favorite-song-idb';
 
 function SongItem({ id, img, title, singer }) {

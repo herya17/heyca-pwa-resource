@@ -700,11 +700,7 @@ input:focus {
 }
 
 .note-input {
-	/* padding: 15px;
-	margin: 35px 0 30px 0; */
 	margin: 42px 15px;
-	/* padding: 12px;
-	margin: 28px 0 5px 0; */
 }
 
 .note-input p {
@@ -714,14 +710,6 @@ input:focus {
 	color: var(--color-note-add-title);
 	animation: showup 1s;
 	margin-bottom: 30px;
-}
-
-.note-input__title {
-	animation: showup 0.4s;
-}
-
-.note-input__body {
-	animation: showup 0.6s;
 }
 
 .note-input textarea {
@@ -735,6 +723,7 @@ input:focus {
 	color: var(--color-input);
 	transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
 	-webkit-transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+	animation: showup 0.5s;
 }
 
 textarea:focus {
@@ -783,14 +772,14 @@ textarea:focus {
 	font-weight: bold;
 	color: var(--color-note-detail-title);
 	margin: 3px 0 20px 0;
-	animation: showup 1.5s;
+	animation: showup 0.6s;
 }
 
 .note-detail__date {
 	font-size: 15px;
 	font-weight: bold;
 	color: var(--color-note-detail-date);
-	animation: showup 3s;
+	animation: showup 2.3s;
 }
 
 .note-detail__body {
@@ -798,7 +787,7 @@ textarea:focus {
 	font-weight: bold;
 	color: var(--color-note-detail-body);
 	margin-top: 35px;
-	animation: showup 3s;
+	animation: showup 2.3s;
 }
 
 .empty-message {
@@ -1636,9 +1625,9 @@ input[type=range]:focus::-ms-fill-upper {
 	100% {opacity: 0;}
 }
 
-.skeleton__animation {
+/* .skeleton__animation {
 	animation: closeup 3.5s;
-}
+} */
 
 .skeleton-bars__wrapper {
 	padding: 5px 0;
