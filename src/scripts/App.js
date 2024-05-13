@@ -215,7 +215,7 @@ function App() {
                 <SongPage
                   likedSongLength={songs.length}
                   newSongLength={newSongs.length}
-                  playedSongLength={allSong.length} />} />
+                  playedSongLength={[...allSong, ...newSongs].length} />} />
             <Route
               path='/song-liked'
               element={
@@ -239,10 +239,10 @@ function App() {
               element={
                 <PlaylistPage
                   title={locale === 'id' ? 'Baru saja dimainkan' : 'Just played'}
-                  songLength={allSong.length}
+                  songLength={[...allSong, ...newSongs].length}
                   isPlaying={allIsPlaying}
                   toggleIsPlaying={toggleAllSongPlay}
-                  songs={allSong} />} />
+                  songs={[...allSong, ...newSongs]} />} />
             <Route path='*' element={<NoPage />} />
           </Routes>
         </main>

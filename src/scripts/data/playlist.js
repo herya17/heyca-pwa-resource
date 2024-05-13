@@ -33,7 +33,85 @@ const ost = [
   },
 ];
 
-const newSongs = [];
+const newSongs = [
+  {
+    id: 37,
+    img: './images/icon-music/39.webp',
+    title: 'Pilihan Hatiku',
+    singer: 'Lavina',
+    src: './songs/music/Lavina-Pilihan-Hatiku.mp3',
+  },
+  {
+    id: 38,
+    img: './images/icon-music/37.webp',
+    title: 'Lelah',
+    singer: 'Tyok Satrio',
+    src: './songs/music/Tyok-Satrio-Lelah.mp3',
+  },
+  {
+    id: 39,
+    img: './images/icon-music/40.webp',
+    title: 'Tentang Rasa',
+    singer: 'Astrid',
+    src: './songs/music/Astrid-Tentang-Rasa.mp3',
+  },
+  {
+    id: 40,
+    img: './images/icon-music/44.webp',
+    title: 'Mendua',
+    singer: 'Astrid',
+    src: './songs/music/Astrid-Mendua.mp3',
+  },
+  {
+    id: 41,
+    img: './images/icon-music/42.webp',
+    title: 'Pergi Saja',
+    singer: 'Geisha',
+    src: './songs/music/Geisha-Pergi-Saja.mp3',
+  },
+  {
+    id: 42,
+    img: './images/icon-music/41.webp',
+    title: 'Jika Cinta Dia',
+    singer: 'Geisha',
+    src: './songs/music/Geisha-Jika-Cinta-Dia-.mp3',
+  },
+  {
+    id: 43,
+    img: './images/icon-music/38.webp',
+    title: 'Lumpuhkan Ingatanku',
+    singer: 'Geisha',
+    src: './songs/music/Geisha-Lumpuhkan-Ingatanku.mp3',
+  },
+  {
+    id: 44,
+    img: './images/icon-music/45.webp',
+    title: 'Cinta dan Benci',
+    singer: 'Geisha',
+    src: './songs/music/Geisha-Cinta-dan-Benci.mp3',
+  },
+  {
+    id: 45,
+    img: './images/icon-music/47.webp',
+    title: 'Cinta Ini Membunuhku',
+    singer: `D'masiv`,
+    src: './songs/music/DMasiv-Cinta-Ini-Membunuhku.mp3',
+  },
+  {
+    id: 46,
+    img: './images/icon-music/46.webp',
+    title: 'Kebutuhan Hati',
+    singer: 'Kaleb J',
+    src: './songs/music/KalebJ-Kebutuhan-Hati.mp3',
+  },
+  {
+    id: 47,
+    img: './images/icon-music/43.webp',
+    title: 'Sementara Sendiri',
+    singer: 'Geisha',
+    src: './songs/music/Geisha-Sementara-Sendiri.mp3',
+  },
+];
 
 const songs = [
   {
