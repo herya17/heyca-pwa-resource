@@ -201,7 +201,7 @@ function App() {
       <LocaleContext.Provider value={contextValue}>
         <header className='header-home'>
           <Navigation logout={onLogout} name={authedUser.name} />
-          <MusicPlayer />
+          <MusicPlayer songs={[...newSongs, ...allSong]} />
         </header>
         <main id='mainContent'>
           <Routes>
@@ -215,7 +215,7 @@ function App() {
                 <SongPage
                   likedSongLength={songs.length}
                   newSongLength={newSongs.length}
-                  playedSongLength={[...allSong, ...newSongs].length} />} />
+                  playedSongLength={[...newSongs, ...allSong].length} />} />
             <Route
               path='/song-liked'
               element={
@@ -239,10 +239,10 @@ function App() {
               element={
                 <PlaylistPage
                   title={locale === 'id' ? 'Baru saja dimainkan' : 'Just played'}
-                  songLength={[...allSong, ...newSongs].length}
+                  songLength={[...newSongs, ...allSong].length}
                   isPlaying={allIsPlaying}
                   toggleIsPlaying={toggleAllSongPlay}
-                  songs={[...allSong, ...newSongs]} />} />
+                  songs={[...newSongs, ...allSong]} />} />
             <Route path='*' element={<NoPage />} />
           </Routes>
         </main>

@@ -1,5 +1,5 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import {
   MdPlayArrow,
@@ -7,10 +7,9 @@ import {
   MdArrowForwardIos,
   MdArrowBackIosNew,
 } from 'react-icons/md';
-import { songs } from '../data/playlist';
 import LocaleContext from '../contexts/LocaleContext';
 
-function MusicPlayer() {
+function MusicPlayer({ songs }) {
   const audioPlayer = React.useRef();
   const { indexContextValue, isPlayingContextValue } = React.useContext(LocaleContext);
   const { toggleIndex } = indexContextValue;
@@ -173,8 +172,8 @@ function MusicPlayer() {
   );
 }
 
-// MusicPlayer.propTypes = {
-//   songs: PropTypes.arrayOf(PropTypes.object).isRequired,
-// }
+MusicPlayer.propTypes = {
+  songs: PropTypes.arrayOf(PropTypes.object).isRequired,
+}
 
 export default MusicPlayer;
