@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, Routes, useNavigate } from 'react-router-dom';
 import { getUserLogged, putAccessToken } from './data/notesapi-source';
-import { newSongs, songs as allSong } from './data/playlist';
+import { newSongs, songs } from './data/playlist';
 import FavoriteSongIdb from './data/favorite-song-idb';
 import FirstPage from './pages/FirstPage';
 import RegisterPage from './pages/RegisterPage';
@@ -33,9 +33,7 @@ function App() {
   const [ likedIsPlaying, setLikedIsPlaying ] = React.useState(false);
   const [ newIsPlaying, setNewIsPlaying ] = React.useState(false);
   const [ allIsPlaying, setAllIsPlaying ] = React.useState(false);
-  const [ songs, setSongs ] = React.useState([]);
-
-  const audioPlayer = React.useRef();
+  const [ likedSong, setLikedSong ] = React.useState([]);
 
   React.useEffect(() => {
     const getData = async () => {
@@ -56,14 +54,14 @@ function App() {
     const getAllSong = async () => {
       try {
         const songs = await FavoriteSongIdb.getAllSong();
-        setSongs(songs);
+        setLikedSong(songs);
       } catch (e) {
         console.log(e);
       }
     }
 
     getAllSong();
-  }, [songs]);
+  }, [likedSong]);
 
   React.useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme);
@@ -201,7 +199,7 @@ function App() {
       <LocaleContext.Provider value={contextValue}>
         <header className='header-home'>
           <Navigation logout={onLogout} name={authedUser.name} />
-          <MusicPlayer songs={[...newSongs, ...allSong]} />
+          <MusicPlayer songs={songs} />
         </header>
         <main id='mainContent'>
           <Routes>
@@ -213,18 +211,18 @@ function App() {
               path='/song'
               element={
                 <SongPage
-                  likedSongLength={songs.length}
+                  likedSongLength={likedSong.length}
                   newSongLength={newSongs.length}
-                  playedSongLength={[...newSongs, ...allSong].length} />} />
+                  playedSongLength={songs.length} />} />
             <Route
               path='/song-liked'
               element={
                 <PlaylistPage
                   title={locale === 'id' ? 'Disukai' : 'Liked'}
-                  songLength={songs.length}
+                  songLength={likedSong.length}
                   isPlaying={likedIsPlaying}
                   toggleIsPlaying={toggleLikedSongPlay}
-                  songs={songs} />} />
+                  songs={likedSong} />} />
             <Route
               path='/song-new'
               element={
@@ -239,10 +237,10 @@ function App() {
               element={
                 <PlaylistPage
                   title={locale === 'id' ? 'Baru saja dimainkan' : 'Just played'}
-                  songLength={[...newSongs, ...allSong].length}
+                  songLength={songs.length}
                   isPlaying={allIsPlaying}
                   toggleIsPlaying={toggleAllSongPlay}
-                  songs={[...newSongs, ...allSong]} />} />
+                  songs={songs} />} />
             <Route path='*' element={<NoPage />} />
           </Routes>
         </main>

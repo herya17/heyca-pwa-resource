@@ -377,6 +377,70 @@ kita bersama 'tuk selamanya
   },
   {
     id: 6,
+    title: 'Pilihan Hatiku',
+    text: `
+Berdiriku disini hanya untukmu
+
+Dan yakinkan ku untuk
+memilihmu
+
+Dalam hati kecil ku inginkan
+kamu
+
+Berharap untuk dapat bersamamu
+
+Aku 'kan ada untuk dirimu
+
+Dan bertahan untukmu
+
+Terlukis indah raut wajahmu
+dalam benakku
+
+Berikan ku cinta terindah yang
+hanya untukku
+
+Tertulis indah puisi cinta
+dalam hatiku
+
+Dan aku yakin kau memanglah
+pilihan hatiku, hu-hu
+
+Dalam hati kecil ku inginkan
+kamu
+
+Berharap untuk dapat bersamamu
+
+Aku 'kan ada untuk dirimu
+
+Dan bertahan untukmu
+
+Terlukis indah raut wajahmu
+dalam benakku
+
+Berikan ku cinta terindah yang
+hanya untukku
+
+Tertulis indah puisi cinta
+dalam hatiku
+
+Dan aku yakin kau memanglah
+pilihan hatiku
+
+Terlukis indah raut wajahmu
+dalam benakku
+
+Berikan ku cinta terindah yang
+hanya untukku
+
+Tertulis puisi cinta
+dalam hatiku
+
+Dan aku yakin kau memanglah
+pilihan hatiku, hu-hu
+    `,
+  },
+  {
+    id: 7,
     title: 'Melukis Senja',
     text: `
 Aku mengerti
@@ -479,7 +543,7 @@ Hingga kau bahagia
     `,
   },
   {
-    id: 7,
+    id: 8,
     title: 'Cinta Pertama Dan Terakhir',
     text: `
 Sebelumnya tak ada yang mampu
@@ -581,7 +645,7 @@ Hu-hu, hu-uh-uh-hu
     `,
   },
   {
-    id: 8,
+    id: 9,
     title: 'Hingga Tua Bersama',
     text: `
 Yeah-yeah
@@ -675,7 +739,7 @@ oh-wo-wo-oh
     `,
   },
   {
-    id: 9,
+    id: 10,
     title: 'Sampai Menutup Mata',
     text: `
 Embun di pagi buta
@@ -745,7 +809,7 @@ Sampai ku menutup mata
     `,
   },
   {
-    id: 10,
+    id: 11,
     title: 'Janji Setia',
     text: `
 Kini aku mengerti, semua ini
@@ -836,7 +900,7 @@ Ho-oh-oh-ho
     `,
   },
   {
-    id: 11,
+    id: 12,
     title: 'Merasa Indah',
     text: `
 Kemarin engkau nyatakan hati
@@ -926,7 +990,138 @@ Ho-oh-oh
     `,
   },
   {
-    id: 12,
+    id: 13,
+    title: 'Lelah',
+    text: `
+Sakitnya hati ini
+
+Saat kau permainkanku
+
+Tak pernah sedikitpun
+
+Kau hargai upayaku
+
+Lelah hati mengharap kau ku
+miliki
+
+Ternyata ku salah
+
+Kau tak rasakan yang sama
+
+Mengapa harus dirimu
+
+Yang selalu ku perjuangkan
+
+Rasa yang hanya untukmu
+
+Hanyalah berbalas luka
+
+Betapa bencinya aku
+
+Tak henti mencintaimu
+
+Mengapa harus dirimu
+
+Yang aku cintai
+
+Terlanjur mencintai kamu
+
+Meskipun kau tak cinta
+
+Lelah hati mengharap kau ku
+miliki
+
+Ternyata ku salah
+
+Mengapa harus dirimu
+(dirimu)
+
+Yang selalu ku perjuangkan
+
+Rasa yang hanya untukmu
+
+Hanyalah berbalas luka
+
+Betapa bencinya aku
+
+Tak henti mencintaimu
+
+Mengapa harus dirimu
+
+Yang aku cintai
+    `,
+  },
+  {
+    id: 14,
+    title: 'Cinta Ini Membunuhku',
+    text: `
+Kau membuatku berantakan
+
+Kau membuatku tak karuan
+
+Kau membuatku tak berdaya
+
+Kau menolakku, acuhkan diriku
+
+Bagaimana caranya untuk
+
+Meruntuhkan kerasnya hatimu?
+
+Kusadari, ku tak sempurna
+
+Ku tak seperti yang kau
+inginkan
+
+Kau hancurkan aku dengan
+sikapmu
+
+Tak sadarkah kau telah
+menyakitiku?
+
+Lelah hati ini meyakinkanmu
+
+Cinta ini membunuhku
+
+Bagaimana caranya untuk
+
+Meruntuhkan kerasnya hatimu?
+
+Kusadari, ku tak sempurna
+
+Ku tak seperti yang kau
+inginkan
+
+Kau hancurkan aku dengan
+sikapmu
+
+Tak sadarkah kau telah
+menyakitiku?
+
+Lelah hati ini meyakinkanmu
+
+Cinta ini membunuhku, wo-uh
+
+\u266A
+
+Kau hancurkan aku dengan
+sikapmu
+
+Tak sadarkah kau telah
+menyakitiku?
+
+Lelah hati ini meyakinkanmu
+
+Cinta ini membunuhku
+
+Wo-uh-uh, hu-uh, ha-ah
+
+Lelah hati ini meyakinkanmu
+
+Cinta ini membunuhku
+    `,
+  },
+  {
+    id: 15,
     title: 'Kesepian',
     text: `
 Dimana? Kamu dimana?
@@ -989,7 +1184,7 @@ Agar aku tak kesepian, ha-ah
     `,
   },
   {
-    id: 13,
+    id: 16,
     title: 'Merindukanmu',
     text: `
 Saat aku tertawa diatas semua
@@ -1047,7 +1242,7 @@ Dengarkan aku, 'ku merindukanmu
     `,
   },
   {
-    id: 14,
+    id: 17,
     title: 'Gagal Bersembunyi',
     text: `
 Ternyata telah lama kita pisah
@@ -1122,7 +1317,183 @@ Sementara cinta masih tersisa
     `,
   },
   {
-    id: 15,
+    id: 18,
+    title: 'Tentang Rasa',
+    text: `
+Aku tersesat menuju hatimu
+
+Beri aku jalan yang indah
+
+Izinkanku lepas penatku
+
+'Tuk sejenak lelap di bahumu
+
+Dapatkah selamanya kita
+bersama
+
+Menyatukan perasaan kau dan
+aku?
+
+Semoga cinta kita kekal abadi
+
+Sesampainya akhir nanti,
+selamanya
+
+\u266A
+
+Tentang cinta yang datang
+perlahan
+
+Membuatku takut kehilangan
+
+Kutitipkan cahaya terang
+
+Tak padam didera goda dan
+masa
+
+Dapatkah selamanya kita
+bersama
+
+Menyatukan perasaan kau dan
+aku?
+
+Semoga cinta kita kekal abadi
+
+Sesampainya akhir nanti,
+selamanya
+
+\u266A
+
+Dapatkah selamanya kita
+bersama
+
+Menyatukan perasaan kau dan
+aku?
+
+Semoga cinta kita kekal abadi
+
+Sesampainya akhir nanti,
+selamanya
+
+Dapatkah selamanya kita
+bersama
+
+Menyatukan perasaan kau dan
+aku?
+
+Dapatkah selamanya kekal
+abadi?
+
+Sesampainya akhir nanti
+
+Selamanya
+
+Hu-uh-ho-oh
+    `,
+  },
+  {
+    id: 19,
+    title: 'Mendua',
+    text: `
+Ku tak habis fikir
+
+Kurangku dimana
+
+Kau tega melepaskan aku
+
+Jauh ku menatap
+
+Namun terlalu jauh
+
+Imajinasiku terberai
+
+Terdiam aku
+
+Beku tanpamu
+
+Dimanakah letak hatimu
+
+Kau putuskan
+
+Tuk mendua
+
+Dengan dia
+
+Di belakangku
+
+Padahal ku
+
+Pilih kamu
+
+Jadi cinta terakhir
+
+Ku tak habis fikir
+
+Kurangku dimana
+
+Kau tega melepaskan aku
+
+Jauh ku menatap
+
+Namun terlalu jauh
+
+Imajinasiku terberai
+
+Terdiam aku
+
+Beku tanpamu
+
+Dimanakah letak hatimu
+
+Kau putuskan
+
+Tuk mendua
+
+Dengan dia
+
+Di belakangku
+
+Padahal ku
+
+Pilih kamu
+
+Jadi cinta terakhir
+
+\u266A
+
+Kau putuskan
+
+Tuk mendua
+
+Dengan dia
+
+Di belakangku
+
+Padahal ku
+
+Pilih kamu
+
+Jadi cinta terakhir
+
+Kau putuskan
+
+Tuk mendua
+
+Dengan dia
+
+Di belakangku
+
+Padahal ku
+
+Pilih kamu
+
+Jadi cinta terakhir
+
+Jadi cinta terakhir
+    `,
+  },
+  {
+    id: 20,
     title: 'Hati Lain Di Hatimu',
     text: `
 Mungkin salahku yang telah
@@ -1220,7 +1591,96 @@ Ku tak apa jika kau bahagia
     `,
   },
   {
-    id: 16,
+    id: 21,
+    title: 'Pergi Saja',
+    text: `
+Terima kasih tuk luka yang
+kau beri
+
+Ku tak percaya kau t'lah
+begini
+
+Dulu kau menjadi malaikat
+di hati
+
+Sampai hati kau t'lah begini
+
+Berkali-kali kau katakan
+sendiri
+
+Kini ku t'lah benci
+
+Cintaku t'lah pergi
+
+Pergi saja kau pergi
+
+Tak usah kembali
+
+Percuma saja kini hanya
+mengundang perih
+
+Cukup tahu ku dirimu
+
+Cukup sakit ku rasakan kini
+
+\u266A
+
+Janji yang selalu ku ingat
+hingga mati
+
+Kau setia hingga ku kembali
+
+Berkali-kali kau katakan
+sendiri
+
+Kini ku t'lah benci
+
+Cintaku t'lah pergi
+
+Pergi saja kau pergi
+
+Tak usah kembali
+
+Percuma saja kini hanya
+mengundang perih
+
+Buang saja kau buang cinta
+yang kemarin
+
+Perasaan tak mungkin
+percayamu lagi
+
+Cukup tahu ku dirimu
+
+Cukup sakit ku rasakan kini
+
+\u266A
+
+Pergi saja kau pergi
+
+Tak usah kembali
+
+Percuma saja kini hanya
+mengundang perih
+
+Buang saja kau buang cinta
+yang kemarin, ho-oh
+
+percayamu lagi
+
+Tinggalkan saja diriku
+
+Semua kan percuma
+
+ho-oh, hu-uh
+
+Cukup tahu ku dirimu
+
+Cukup sakit ku rasakan kini
+    `,
+  },
+  {
+    id: 22,
     title: 'Ego',
     text: `
 Cinta yang dulu kulewati, begitu
@@ -1300,7 +1760,7 @@ Ku tak ingin pisah dengannya
     `,
   },
   {
-    id: 17,
+    id: 23,
     title: 'Tak Dianggap',
     text: `
 Aku selalu t'rus berusaha
@@ -1383,7 +1843,7 @@ terluka
     `,
   },
   {
-    id: 18,
+    id: 24,
     title: 'Pililah Yang Terbaik',
     text: `
 Untuk apa terus memaksa
@@ -1469,7 +1929,7 @@ Pilihan yang terbaik
     `,
   },
   {
-    id: 19,
+    id: 25,
     title: 'Aku Bukan Untukmu',
     text: `
 Dahulu kau mencintaiku
@@ -1569,7 +2029,7 @@ Untuk diriku
     `,
   },
   {
-    id: 20,
+    id: 26,
     title: 'Luka Di Sini',
     text: `
 Dulu pernah ada cinta
@@ -1636,7 +2096,270 @@ Ho-oh-oh
     `,
   },
   {
-    id: 21,
+    id: 27,
+    title: 'Jika Cinta Dia',
+    text: `
+Terlampau sering kau buang
+air mataku
+
+Tak pernah kau tahu dalamnya
+rasa cintaku
+
+Tak banyak inginku, jangan
+kau ulangi
+
+Menyakiti aku sesuka
+kelakuanmu
+
+Ku bukan manusia yang tidak
+berfikir
+
+Berulang kali kau lakukan
+itu padaku
+
+Jika cinta dia, jujurlah
+padaku
+
+Tinggalkan aku di sini tanpa
+senyumanmu
+
+Jika cinta dia, kucoba
+mengerti
+
+Teramat sering kau membuat
+patah hatiku (patah hatiku)
+
+Kau datang padanya, tak
+pernah ku tahu
+
+Kau tinggalkan aku di saat
+kubutuhkanmu
+
+Cinta tak begini, selama ku
+tahu
+
+Tetapi ku lemah kar'na
+cintaku padamu
+
+Jika cinta dia, jujurlah
+padaku
+
+Tinggalkan aku di sini tanpa
+senyumanmu
+
+Jika cinta dia, kucoba
+mengerti
+
+Mungkin kau bukan cinta
+sejati di hidupku
+
+\u266A
+
+Jika cinta dia, jujurlah
+padaku
+
+Tinggalkan aku di sini tanpa
+senyumanmu
+
+Jika cinta dia, kucoba
+mengerti
+
+Mungkin kau bukan cinta
+sejati di hidupku
+
+Jika cinta dia, kucoba
+mengerti
+
+Oh-oh, ho-oh
+
+Jika cinta dia, kucoba
+mengerti
+
+Mungkin kau bukan cinta
+sejati di hidupku
+    `,
+  },
+  {
+    id: 28,
+    title: 'Cinta dan Benci',
+    text: `
+Bagaimana cara membuatmu
+bahagia
+
+Nyaris ku menyerah jalani
+semua
+
+T'lah berbagai kata ku ungkap
+percuma
+
+Agar kau percaya cintaku
+berharga
+
+Tak kuat ku menahanmu
+mempertahankan cintaku
+
+Namun kau begitu saja
+
+Tak pernah merindu
+
+Sungguh aku tak bisa
+
+Sampai kapanpun tak bisa
+
+Membenci dirimu
+
+Sesungguhnya aku tak mampu
+
+Sulit untuk ku bisa
+
+Sangat sulit ku tak bisa
+
+Memisahkan segala cinta dan
+benci yang ku rasa, oh
+
+Apa kau mengerti ku sedih
+sendiri
+
+Tanpa ada kamu ku merasa sepi
+
+T'lah lama ku menantimu
+
+Diam sendiri menunggu
+
+Setengah hati mencinta
+
+Ku sakit karenamu
+
+Sungguh aku tak bisa
+
+Sampai kapanpun tak bisa
+
+Membenci dirimu sesungguhnya
+aku tak mampu
+
+Sulit untuk ku bisa
+
+Sangat sulit ku tak bisa
+
+Memisahkan segala cinta dan
+benci yang ku rasa
+
+Ho-ho, hu-uh
+
+Ku sakit karenamu, ho-oh
+
+Sulit untuk ku bisa
+
+Sangat sulit ku tak bisa
+
+Memisahkan segala cinta dan
+benci, oh
+
+Sungguh aku tak bisa membenci
+dirimu
+
+Sesungguhnya aku tak mampu
+
+Sungguh aku tak bisa
+
+Sampai kapan ku tak bisa
+
+Memisahkan segala cinta dan
+benci, oh
+
+Cinta dan benci, oh 
+
+Yang kurasa
+    `,
+  },
+  {
+    id: 29,
+    title: 'Lumpuhkan Ingatanku',
+    text: `
+Jangan sembunyi
+
+Ku mohon padamu jangan
+sembunyi
+
+Sembunyi dari apa yang
+terjadi
+
+Tak seharusnya hatimu kau
+kunci
+
+Bertanya cobalah bertanya
+pada semua
+
+Di sini ku coba untuk
+bertahan
+
+Ungkapkan semua yang ku
+rasakan
+
+Kau acuhkan aku
+
+Kau diamkan aku
+
+Kau tinggalkan aku
+
+Lumpuhkanlah ingatanku
+
+Hapuskan tentang dia
+
+Ku ingin ku lupakannya
+
+Jangan sembunyi
+
+Ku mohon padamu jangan
+sembunyi
+
+Sembunyi dari apa yang
+terjadi
+
+Tak seharusnya hatimu kau
+kunci
+
+Lumpuhkanlah ingatanku
+
+Hapuskan tentang dia
+
+Hapuskan memoriku tentangnya
+
+Hilangkanlah ingatanku jika
+itu tentang dia
+
+Ku ingin ku lupakannya
+
+\u266A
+
+Ho-oh
+
+Lumpuhkanlah ingatanku
+
+Hapuskan tentang dia
+
+Hapuskan memoriku tentangnya
+
+Hilangkanlah ingatanku jika
+itu tentang dia
+
+Ku ingin ku lupakannya
+
+Lumpuhkanlah ingatanku
+
+Hapuskan tentang dia
+
+Ku ingin ku lupakannya
+
+Kau acuhkan aku
+
+Kau diamkan aku
+
+Kau tinggalkan aku
+    `,
+  },
+  {
+    id: 30,
     title: 'Ingin Hilang Ingatan',
     text: `
 Menghilanglah dari kehidupanku
@@ -1740,7 +2463,7 @@ Ku ingin hilang ingatan
     `,
   },
   {
-    id: 22,
+    id: 31,
     title: 'Waktu Yang Salah',
     text: `
 Jangan tanyakan perasaanku
@@ -1835,7 +2558,121 @@ Di waktu yang salah
     `,
   },
   {
-    id: 23,
+    id: 32,
+    title: 'Kebutuhan Hati',
+    text: `
+Tak seharusnya kita berjumpa
+
+Berdua kita berucap kata
+cinta
+
+Dalam senyummu, engkau
+meragu
+
+Bila tak menyatu, mengapa
+harus dirimu?
+
+Dan sekarang engkau telah
+pergi
+
+Lenyaplah semua tentangmu
+
+(Hati berbisik lirih)
+
+(Mengharapmu untuk kembali)
+
+Ku paham, kamu takkan bisa
+
+'Kan kusimpan segala angan
+
+(Teruslah kau berlari)
+
+(Aku tak akan menahan lagi)
+
+Hu, biar kuabaikan
+
+Kebutuhan hati ini, Kasih
+
+Ingatkah kau akan cinta
+kita?
+
+Tenggelam dalam manis kisah
+asmara (asmara, oh)
+
+Setiap kata yang t'lah
+terucap
+
+Ternyata hanya kata, bukan
+cinta sesungguhnya
+
+Dan sekarang engkau telah
+pergi
+
+Lenyaplah semua tentangmu
+
+(Hati berbisik lirih)
+
+(Mengharapmu untuk kembali)
+
+Oh, ku paham, kamu takkan
+bisa
+
+'Kan kusimpan segala angan
+
+(Teruslah kau berlari)
+
+(Aku tak akan menahan lagi)
+
+Uh-oh, biar kuabaikan
+
+Kebutuhan hati ini, Kasih
+
+\u266A
+
+(Hati berbisik lirih)
+
+(Mengharapmu untuk kembali)
+
+Oh, ku paham, kamu takkan
+bisa
+
+'Kan kusimpan segala angan
+
+(Teruslah kau berlari)
+
+(Aku tak akan menahan lagi)
+
+Ho-wo-wo, biar kuabaikan
+
+Kebutuhan hati ini
+
+(Hati berbisik lirih)
+
+(Mengharapmu untuk kembali)
+
+Kamu takkan bisa
+
+'Kan kusimpan segala angan
+
+(Teruslah kau berlari)
+
+(Aku tak akan menahan lagi)
+
+Oh-wo-wo, biar kuabaikan
+
+Kebutuhan hati ini, Kasih
+
+Entah bagaimana
+
+Biar kuabaikan
+
+Kebutuhan hati ini, Kasih
+
+Ho-oh
+    `,
+  },
+  {
+    id: 33,
     title: 'Cinta Kau Dimana',
     text: `
 Cinta, kau di mana?
@@ -1903,7 +2740,7 @@ Biarkan ku pendam perasaanku ini
     `,
   },
   {
-    id: 24,
+    id: 34,
     title: 'Belum Siap Kehilangan',
     text: `
 Sewindu sudah
@@ -2007,7 +2844,7 @@ Hm-hm
     `,
   },
   {
-    id: 25,
+    id: 35,
     title: 'Ikhlasku Bahagiamu',
     text: `
 Suatu masa kita jumpa
@@ -2102,7 +2939,7 @@ takkan ada lagi air mata
     `,
   },
   {
-    id: 26,
+    id: 36,
     title: 'Aku Bukan Jodohnya',
     text: `
 Ini salahku
@@ -2188,7 +3025,7 @@ Aku bukan jodohnya
     `,
   },
   {
-    id: 27,
+    id: 37,
     title: 'Bohongi Hati',
     text: `
 Aku tersiksa melihat
@@ -2289,7 +3126,7 @@ bisa tanpamu
     `,
   },
   {
-    id: 28,
+    id: 38,
     title: 'Mesin Waktu',
     text: `
 Kalau harus ku mengingatmu
@@ -2370,7 +3207,7 @@ waktu
     `,
   },
   {
-    id: 29,
+    id: 39,
     title: 'Doa Untuk Kamu',
     text: `
 Ada resah dalam hati
@@ -2455,7 +3292,7 @@ Hingga Tuhan menolong kita
     `,
   },
   {
-    id: 30,
+    id: 40,
     title: 'Pura Pura Lupa',
     text: `
 Pernah aku jatuh hati
@@ -2544,7 +3381,7 @@ Biar aku yang pura pura lupa
     `,
   },
   {
-    id: 31,
+    id: 41,
     title: 'Trauma',
     text: `
 Ku pernah coba bertahan
@@ -2635,7 +3472,7 @@ Cinta tak harus saling miliki
     `,
   },
   {
-    id: 32,
+    id: 42,
     title: 'Akhir Tak Bahagia',
     text: `
 Malam ini
@@ -2694,7 +3531,7 @@ Walau berakhir tak bahagia
     `,
   },
   {
-    id: 33,
+    id: 43,
     title: 'Jiwa Yang Bersedih',
     text: `
 (Ta na)
@@ -2835,7 +3672,106 @@ Kau pasti kan didengar
     `,
   },
   {
-    id: 34,
+    id: 44,
+    title: 'Sementara Sendiri',
+    text: `
+Terpaksa aku sendiri
+
+Sementara saja kini
+
+Bersabarkan datang hari
+
+Meskipun ku lelah
+
+Aku takut kamu tak mengerti
+
+Caraku sampaikan rasa ini
+
+Kamu tak mengerti
+
+Ajarkan aku tuk bisa dapat
+
+Ungkapkan rasa
+
+Agar kamu kan percaya
+
+Begitu ku butuh cinta
+
+\u266A
+
+Kembali lagi terulang
+
+Tergores hatiku ini
+
+Setelah lama menyimpan
+
+Rasa ini terlalu dalam
+
+Terlalu dalam
+
+Ajarkan aku tuk bisa dapat
+
+Ungkapkan rasa
+
+Agar kamu kan percaya
+
+Begitu ku butuh cinta
+
+Ajarkan aku tuk bisa dapat
+
+Merangkai kata
+
+Agar kamu kan dengarkan
+
+Bibirku katakan cinta
+Sekarang, ha-ho-oh
+
+\u266A
+
+Aku Takut kamu tak mengerti
+
+Caraku sampaikan rasa ini
+
+Kamu tak mengerti
+
+Hu-hu, wo-wo-wo
+
+(Ajarkan aku tuk bisa dapat)
+
+(Ungkapkan rasa)
+
+Agar kau percaya aku butuh
+cinta, Ho-oh
+
+(Ajarkan aku tuk bisa dapat)
+
+(Merangkai kata)
+
+Merangkai kata
+
+(Agar kamu kan dengarkan)
+
+Bibirku katakan cinta,
+Hu-wo
+
+(Ku benci sendiri ku benci
+sendiri)
+
+(Harus terus begini)
+
+(Ku benci sendiri ku benci
+sendiri)
+
+(Harus terus begini)
+
+Ku benci sendiri ku benci
+sendiri
+
+Takut gagal terus begini
+    `,
+  },
+  {
+    id: 45,
     title: 'Tapi Tahukah Kamu',
     text: `
 Bagaikan bintang di langit
@@ -2930,7 +3866,7 @@ Lebih baik menghilang
     `,
   },
   {
-    id: 35,
+    id: 46,
     title: 'Cinta Tak Mungkin Berhenti',
     text: `
 Tak ada kisah tentang cinta
@@ -3014,7 +3950,7 @@ Walau kini aku harus pergi
     `,
   },
   {
-    id: 36,
+    id: 47,
     title: 'Jodoh Pasti Bertemu',
     text: `
 Andai engkau tahu
