@@ -6,7 +6,7 @@ import App from './App';
 
 import 'lazysizes';
 import 'lazysizes/plugins/parent-fit/ls.parent-fit';
-import 'toastify-js/src/toastify.css'
+import 'toastify-js/src/toastify.css';
 import '../styles/style.css';
 import '../styles/responsive.css';
 import './components/contents/skip-link';
