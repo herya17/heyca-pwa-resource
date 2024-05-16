@@ -405,6 +405,8 @@ dalam hatiku
 Dan aku yakin kau memanglah
 pilihan hatiku, hu-hu
 
+\u266A
+
 Dalam hati kecil ku inginkan
 kamu
 
