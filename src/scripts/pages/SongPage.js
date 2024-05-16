@@ -1,13 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Link } from 'react-router-dom';
-import { MdAdd } from 'react-icons/md';
 import { songs } from '../data/playlist';
 import lyrics from '../data/lyrics';
 import MusicPlayerCatalog from '../components/MusicPlayerCatalog';
 import PlaylistButton from '../components/PlaylistButton';
 import LyricMusic from '../components/LyricMusic';
-import ActionButton from '../components/ActionButton';
 import LocaleContext from '../contexts/LocaleContext';
 
 function SongPage({ likedSongLength, newSongLength, playedSongLength, }) {
@@ -62,9 +59,6 @@ function SongPage({ likedSongLength, newSongLength, playedSongLength, }) {
           length={playedSongLength} />
       </div>
       <LyricMusic isLoading={isLoading} lyric={data.lyric} />
-      <Link to='/add'>
-        <ActionButton icon={<MdAdd />} />
-      </Link>
     </section>
   );
 }
