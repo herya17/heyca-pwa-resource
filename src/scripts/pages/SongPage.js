@@ -40,17 +40,23 @@ function SongPage({ likedSongLength, newSongLength, playedSongLength, }) {
       </div>
       <div>
         <PlaylistButton
-          duration='200'
-          img='./images/icons/favorite'
-          url='/song-liked'
-          text={locale === 'id' ? 'Disukai' : 'Liked'}
-          length={likedSongLength} />
-        <PlaylistButton
           duration='300'
           img='./images/icons/music'
           url='/song-new'
           text={locale === 'id' ? 'Hal baru' : 'New thing'}
           length={newSongLength} />
+        <PlaylistButton
+          duration='200'
+          img='./images/icons/favorite'
+          url='/song-liked'
+          text={locale === 'id' ? 'Disukai' : 'Liked'}
+          length={likedSongLength} />
+        {/* <PlaylistButton
+          duration='300'
+          img='./images/icons/music'
+          url='/song-new'
+          text={locale === 'id' ? 'Hal baru' : 'New thing'}
+          length={newSongLength} /> */}
         <PlaylistButton
           duration='400'
           img='./images/icons/timer'
