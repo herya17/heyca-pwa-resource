@@ -4106,8 +4106,8 @@ Jodoh pasti bertemu
     title: 'Sunao Na Niji',
     text: `
 子供の頃見た虹を今見上げると
-Sekarang, ketika aku melihat
-pelangi yang kulihat saat kecil
+${<span>`Sekarang, ketika aku melihat
+pelangi yang kulihat saat kecil`</span>}
 
 七色ではなくやがて霧がかかり
 Tak ada tujuh warna, tak lama
@@ -4156,7 +4156,7 @@ hidup
 雨が止むと不意に君は歩道橋に上り
 Ketika hujan berhenti, kau tiba
 -tiba menyeberangi jembatan
-gantung
+penyeberangan
 
 空を指差して無邪気に笑ってた
 Kau tertawa dengan polos dan 
@@ -4209,11 +4209,11 @@ Bahkan sekarang, setelah hujan
 
 歩道橋から狭い空見上げ
 Aku menatap langit yang sempit
-dari jembatan gantung
+dari jembatan penyeberangan
 
 架け橋を探すけど
 Meskipun aku mencari jalan
-setapak jembatan gantung
+setapak jembatan penyeberangan
 
 君の元へ辿り着けないんだ
 Aku tak bisa mencapai tempatmu
