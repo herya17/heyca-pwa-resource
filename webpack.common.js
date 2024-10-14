@@ -149,7 +149,7 @@ module.exports = {
           screenshots: [
             {
               src: 'https://i.pinimg.com/originals/a9/88/c1/a988c1bf6e66482d5292e2c0c52f2dde.gif',
-              sizes: '1200x1032',
+              sizes: '320x640',
               // destination: path.join('/images/screenshots/', 'preview'),
               type: 'image/gif',
               form_factor: 'wide',
