@@ -4259,12 +4259,12 @@ Jika suatu hari nanti kita
 bertemu lagi
 
 素直に思い伝えるから
-Aku akan mengungkapkan perasaanku
-dengan jujur
+Aku akan mengungkapkan
+perasaanku dengan jujur
 
 素直な虹を描いてみるから
-Karena aku akan mencoba menggambar
-pelangi yang jujur
+Karena aku akan mencoba
+menggambar pelangi yang jujur
     `,
   },
 ];
