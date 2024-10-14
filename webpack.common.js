@@ -108,7 +108,7 @@ module.exports = {
           theme_color: '#faf5ff',
           crossorigin: 'use-credentials',
           orientation: 'portrait',
-          display_override : ['fullscreen', 'minimal-ui'],
+          // display_override : ['fullscreen', 'minimal-ui'],
           display: 'standalone',
           prefer_related_applications: false,
           description: 'HeyCa Special 17th Birthday Gift',
