@@ -114,8 +114,16 @@ module.exports = {
           description: 'HeyCa Special 17th Birthday Gift',
           screenshots: [
             {
+              src: 'https://drive.google.com/file/d/1iuLSNvlA3l_vEwyqXJyg3PQC9TDjADQe/view?usp=drive_link',
+              sizes: '1200x1032',
+              // destination: path.join('/images/screenshots/', 'preview'),
+              type: 'image/jpeg',
+              form_factor: 'wide',
+              label: 'Wonder Widgets',
+            },
+            {
               src: 'https://drive.google.com/file/d/1SdP_szLce1YvbqGFo-gdw5uDYulMk9lO/view?usp=drive_link',
-              sizes: '320x640',
+              sizes: '325x645',
               // destination: path.join('/images/screenshots/', 'preview'),
               type: 'image/png',
               form_factor: 'narrow',
@@ -123,7 +131,7 @@ module.exports = {
             },
             {
               src: 'https://drive.google.com/file/d/1sqAhiU6uiKaTdqH3HcDlCNGB536Kj77h/view?usp=drive_link',
-              sizes: '320x640',
+              sizes: '325x645',
               // destination: path.join('/images/screenshots/', 'preview'),
               type: 'image/png',
               form_factor: 'narrow',
@@ -131,18 +139,10 @@ module.exports = {
             },
             {
               src: 'https://drive.google.com/file/d/1wkPq2K8GGE7LivrWiudsfUt-cIqPDupE/view?usp=drive_link',
-              sizes: '320x640',
+              sizes: '325x645',
               // destination: path.join('/images/screenshots/', 'preview'),
               type: 'image/png',
               form_factor: 'narrow',
-              label: 'Wonder Widgets',
-            },
-            {
-              src: 'https://drive.google.com/file/d/1iuLSNvlA3l_vEwyqXJyg3PQC9TDjADQe/view?usp=drive_link',
-              sizes: '1200x1032',
-              // destination: path.join('/images/screenshots/', 'preview'),
-              type: 'image/jpeg',
-              form_factor: 'wide',
               label: 'Wonder Widgets',
             },
           ],
