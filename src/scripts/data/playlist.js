@@ -119,6 +119,20 @@ const newSongs = [
     singer: 'Geisha',
     src: './songs/music/Geisha-Sementara-Sendiri.mp3',
   },
+  {
+    id: 46,
+    img: './images/icon-music/15.webp',
+    title: 'Terlalu Cinta',
+    singer: 'Rossa by Della Firdatia',
+    src: './songs/music/Rossa-Terlalu-Cinta-cover-Della-Firdatia.mp3',
+  },
+  {
+    id: 49,
+    img: './images/icon-music/19.webp',
+    title: 'Sunao Na Niji',
+    singer: 'Surface',
+    src: './songs/music/Sunao-Na-Niji-Surface.mp3',
+  },
 ];
 
 const songs = [
@@ -439,17 +453,31 @@ const songs = [
   },
   {
     id: 46,
+    img: './images/icon-music/15.webp',
+    title: 'Terlalu Cinta',
+    singer: 'Rossa by Della Firdatia',
+    src: './songs/music/Rossa-Terlalu-Cinta-cover-Della-Firdatia.mp3',
+  },
+  {
+    id: 47,
     img: './images/icon-music/19.webp',
     title: 'Cinta Tak Mungkin Berhenti',
     singer: 'Tangga by Tami Aulia',
     src: './songs/music/TAMI-AULIA-TANGGA-CINTA-TAK-MUNGKIN-BERHENTI.mp3',
   },
   {
-    id: 47,
+    id: 48,
     img: './images/icon-music/15.webp',
     title: 'Jodoh Pasti Bertemu',
     singer: 'Afgan',
     src: './songs/music/Jodoh-Pasti-Bertemu-Afgan.mp3',
+  },
+  {
+    id: 49,
+    img: './images/icon-music/19.webp',
+    title: 'Sunao Na Niji',
+    singer: 'Surface',
+    src: './songs/music/Sunao-Na-Niji-Surface.mp3',
   },
 ];
 
