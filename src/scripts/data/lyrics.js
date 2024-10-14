@@ -3869,6 +3869,75 @@ Lebih baik menghilang
   },
   {
     id: 46,
+    title: 'Terlalu Cinta',
+    text: `
+Jangan dekat atau jangan datang
+kepadaku lagi
+
+Aku semakin tersiksa karena tak
+memilikimu
+
+Kucoba jalani hari dengan
+pengganti dirimu
+
+Tapi hatiku selalu berpihak
+lagi padamu
+
+Mengapa semua ini terjadi
+kepadaku
+
+Tuhan maafkan diri ini
+
+Yang tak pernah bisa menjauh
+
+Dari angan tentangnya
+
+Namun apalah daya ini
+
+Bila ternyata sesungguhnya
+
+Aku terlalu cinta dia
+
+Tapi hatiku selalu berpihak
+lagi padamu
+
+Mengapa semua ini terjadi
+kepadaku
+
+Tuhan maafkan diri ini
+
+Yang tak pernah bisa menjauh
+
+Dari angan tentangnya
+
+Namun apalah daya ini
+
+Bila ternyata sesungguhnya
+
+Aku terlalu cinta dia
+
+\u266A
+
+Mengapa semua ini terjadi
+kepadaku
+
+Tuhan maafkan diri ini
+
+Yang tak pernah bisa menjauh
+
+Dari angan tentangnya
+
+Namun apalah daya ini
+
+Bila ternyata sesungguhnya
+
+Aku terlalu cinta dia
+
+Aku terlalu cinta dia
+    `,
+  },
+  {
+    id: 47,
     title: 'Cinta Tak Mungkin Berhenti',
     text: `
 Tak ada kisah tentang cinta
@@ -3952,7 +4021,7 @@ Walau kini aku harus pergi
     `,
   },
   {
-    id: 47,
+    id: 48,
     title: 'Jodoh Pasti Bertemu',
     text: `
 Andai engkau tahu
@@ -4030,6 +4099,172 @@ untukmu
 Ku 'kan memilikimu
 
 Jodoh pasti bertemu
+    `,
+  },
+  {
+    id: 49,
+    title: 'Sunao Na Niji',
+    text: `
+子供の頃見た虹を今見上げると
+Sekarang, ketika aku melihat
+pelangi yang kulihat saat kecil
+
+七色ではなくやがて霧がかかり
+Tak ada tujuh warna, tak lama
+kemudian mulai berkabut
+
+時間は過ぎ変わってゆく
+Waktu berlalu dan terus berubah
+
+君を探しても何処にもいない
+Meskipun aku mencarimu, kau tak
+ada dimanapun
+
+目を閉じ心開いてまた眺めて見ても
+Kututup mataku dan kubuka hatiku
+, meskipun aku menatapnya lagi
+
+何も変わらないのか確かめてみたい
+Akankah ada yang berubah? Aku
+ingin memastikannya
+
+素直になれれば
+Jika aku terbiasa menjadi jujur
+
+この霧が晴れると心に願いそう叫んでる
+Aku berharap dalam hatiku semoga
+kabut ini akan hilang, begitulah
+teriakku
+
+何かを失くしてしまった事で
+Jika kau kehilangan sesuatu
+
+そう 手にしたものもきっとあるんだろう
+Pasti kau juga mendapatkan
+sesuatu, bukan?
+
+だけどまだ僕等は大人に戸惑い
+Tapi, kita masih bingung dengan
+menjadi orang dewasa
+
+生きてゆく術探してる
+Kita mencari cara untuk terus
+hidup
+
+\u266A
+
+雨が止むと不意に君は歩道橋に上り
+Ketika hujan berhenti, kau tiba
+-tiba menyeberangi jembatan
+gantung
+
+空を指差して無邪気に笑ってた
+Kau tertawa dengan polos dan 
+menunjuk langit
+
+消え入るような透けた虹を
+Pelangi yang memudar seolah
+menghilang
+
+何も言えないまま眺めていたね
+Kita berdua menatapnya tanpa
+mengatakan apapun
+
+本当は あの時ずっと
+Sebenarnya, saat itu, selalu
+
+君の横顔を見る事に夢中になってた
+Aku menjadi tergila-gila untuk
+melihat wajah sampingmu
+
+忘れない為に
+Agar aku tak bisa melupakannya
+
+素直になれずに
+Aku tak bisa menjadi orang yang
+jujur
+
+ただ君の名前を 心の中でそう叫んでる
+Aku hanya meneriakkan namamu
+di dalam hatiku
+
+君を失ってまで手にしたいものなど
+Padahal seharusnya tak ada yang
+ingin kudapatkan
+
+無い筈なのにどうしてだろう
+Bahkan jika aku kehilanganmu,
+tapi kenapa?
+
+濡れた髪を伝い落ちるのは
+Yang mengalir di rambutku yang
+basah adalah
+
+「さよなら」 という涙だったね
+Air mata yang bernama
+"selamat tinggal"
+
+雨上がりは今も
+Bahkan sekarang, setelah hujan
+
+歩道橋から狭い空見上げ
+Aku menatap langit yang sempit
+dari jembatan gantung
+
+架け橋を探すけど
+Meskipun aku mencari jalan
+setapak jembatan gantung
+
+君の元へ辿り着けないんだ
+Aku tak bisa mencapai tempatmu
+
+モノクロの世界にいる
+Aku berada di dunia hitam putih
+
+言葉に出来ずに
+Kata-kata yang tak bisa kuucapkan
+
+閉じ込めた思いを今更君に問いかけてみる
+Dan perasaan yang kupendam, akan
+kucoba untuk bertanya padamu
+sekarang
+
+弱さのせいにして逃げ出したのは
+Melarikan diri dan menyalahkan
+kelemahan
+
+そう 君の方じゃない僕の方だよ
+Benar, itu bukanlah jalamu, tapi
+jalanku
+
+素直になれれば
+Jika aku terbiasa menjadi jujur
+
+この霧が晴れると 心に願いそう叫んでる
+Aku berharap dalam hatiku semoga
+kabut ini akan hilang, begitulah
+teriakku
+
+何か足りなくても今ある色で
+Meskipun aku tak cukup dalam
+beberapa hal, tapi dengan warna
+yang kupunya sekarang
+
+そう 僕の世界を塗り替えてみたい
+Benar, aku ingin coba mengecat
+ulang duniaku
+
+いつかまた君に会えるなら
+Jika suatu hari nanti kita
+bertemu lagi
+
+素直に思い伝えるから
+Aku akan mengungkapkan perasaanku
+dengan jujur
+
+素直な虹を描いてみるから
+Karena aku akan mencoba menggambar
+pelangi yang jujur
     `,
   },
 ];
