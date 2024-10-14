@@ -1597,11 +1597,6 @@ input[type=range]:focus::-ms-fill-upper {
 	font-family: 'Quicksand', sans-serif;
 }
 
-.lyric-music__lyric span {
-	font-size: 16px;
-}
-
-
 
 .skeleton-bars div {
 	background-color: var(--skeleton-bars-background);

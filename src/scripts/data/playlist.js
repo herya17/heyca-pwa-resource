@@ -453,7 +453,7 @@ const songs = [
   },
   {
     id: 46,
-    img: './images/icon-music/15.webp',
+    img: './images/icon-music/48.webp',
     title: 'Terlalu Cinta',
     singer: 'Rossa by Della Firdatia',
     src: './songs/music/Rossa-Terlalu-Cinta-cover-Della-Firdatia.mp3',
@@ -474,7 +474,7 @@ const songs = [
   },
   {
     id: 49,
-    img: './images/icon-music/19.webp',
+    img: './images/icon-music/49.webp',
     title: 'Sunao Na Niji',
     singer: 'Surface',
     src: './songs/music/Sunao-Na-Niji-Surface.mp3',
