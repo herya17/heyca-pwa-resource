@@ -113,10 +113,10 @@ module.exports = {
           description: 'HeyCa Special 17th Birthday Gift',
           screenshots: [
             {
-              src: path.resolve('./src/public/images/screenshots/01.png'),
+              src: 'https://i.pinimg.com/originals/a9/88/c1/a988c1bf6e66482d5292e2c0c52f2dde.gif',
               sizes: '640x320',
-              destination: path.join('/images/screenshots/'),
-              type: 'image/png',
+              // destination: path.join('/images/screenshots/'),
+              type: 'image/gif',
               form_factor: 'wide',
               label: 'Wonder Widgets',
             },
@@ -128,14 +128,14 @@ module.exports = {
               form_factor: 'narrow',
               label: 'Wonder Widgets',
             },
-            {
-              src: path.resolve('./src/public/images/screenshots/03.png'),
-              sizes: '640x320',
-              destination: path.join('/images/screenshots/'),
-              type: 'image/png',
-              form_factor: 'narrow',
-              label: 'Wonder Widgets',
-            },
+            // {
+            //   src: path.resolve('./src/public/images/screenshots/03.png'),
+            //   sizes: '640x320',
+            //   destination: path.join('/images/screenshots/'),
+            //   type: 'image/png',
+            //   form_factor: 'narrow',
+            //   label: 'Wonder Widgets',
+            // },
           ],
           icons: [
             {
