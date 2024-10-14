@@ -4108,8 +4108,8 @@ Jodoh pasti bertemu
     title: 'Sunao Na Niji',
     text: `
 子供の頃見た虹を今見上げると
-${<span>'Sekarang, ketika aku melihat
-pelangi yang kulihat saat kecil'</span>}
+${`Sekarang, ketika aku melihat
+pelangi yang kulihat saat kecil` + 'pppppp'}
 
 七色ではなくやがて霧がかかり
 Tak ada tujuh warna, tak lama
