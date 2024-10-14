@@ -4131,7 +4131,7 @@ ingin memastikannya
 素直になれれば
 Jika aku terbiasa menjadi jujur
 
-この霧が晴れると心に願いそう叫んでる
+この霧が晴れると心に願い そう 叫んでる
 Aku berharap dalam hatiku semoga
 kabut ini akan hilang, begitulah
 teriakku
@@ -4240,7 +4240,7 @@ jalanku
 素直になれれば
 Jika aku terbiasa menjadi jujur
 
-この霧が晴れると 心に願いそう叫んでる
+この霧が晴れると 心に願い そう 叫んでる
 Aku berharap dalam hatiku semoga
 kabut ini akan hilang, begitulah
 teriakku
