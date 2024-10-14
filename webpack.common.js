@@ -116,7 +116,7 @@ module.exports = {
             {
               src: path.resolve('./src/public/images/screenshots/0.jpeg'),
               sizes: '1200x1032',
-              // destination: path.join('/images/screenshots/'),
+              destination: path.join('/images/screenshots/', 'preview'),
               type: 'image/jpeg',
               form_factor: 'wide',
               label: 'Wonder Widgets',
@@ -124,7 +124,7 @@ module.exports = {
             {
               src: path.resolve('./src/public/images/screenshots/01.png'),
               sizes: '320x640',
-              // destination: path.join('/images/screenshots/'),
+              destination: path.join('/images/screenshots/', 'preview'),
               type: 'image/png',
               form_factor: 'narrow',
               label: 'Wonder Widgets',
@@ -132,7 +132,7 @@ module.exports = {
             {
               src: path.resolve('./src/public/images/screenshots/02.png'),
               sizes: '320x640',
-              // destination: path.join('/images/screenshots/'),
+              destination: path.join('/images/screenshots/', 'preview'),
               type: 'image/png',
               form_factor: 'narrow',
               label: 'Wonder Widgets',
@@ -140,7 +140,7 @@ module.exports = {
             {
               src: path.resolve('./src/public/images/screenshots/03.png'),
               sizes: '320x640',
-              // destination: path.join('/images/screenshots/'),
+              destination: path.join('/images/screenshots/', 'preview'),
               type: 'image/png',
               form_factor: 'narrow',
               label: 'Wonder Widgets',
