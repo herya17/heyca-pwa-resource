@@ -134,27 +134,6 @@ module.exports = {
               form_factor: 'narrow',
               label: 'Heyca Wonder Widgets',
             },
-            {
-              src: path.resolve('/images/screenshots/screenshots-1.png'),
-              sizes: '586x1041',
-              type: 'image/png',
-              form_factor: 'wide',
-              label: 'Heyca Wonder Widgets',
-            },
-            {
-              src: path.resolve('/images/screenshots/screenshots-2.png'),
-              sizes: '586x1041',
-              type: 'image/png',
-              form_factor: 'wide',
-              label: 'Heyca Wonder Widgets',
-            },
-            {
-              src: path.resolve('/images/screenshots/screenshots-3.png'),
-              sizes: '586x1041',
-              type: 'image/png',
-              form_factor: 'wide',
-              label: 'Heyca Wonder Widgets',
-            },
           ],
           icons: [
             {
