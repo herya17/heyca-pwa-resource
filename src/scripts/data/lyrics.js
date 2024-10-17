@@ -3845,7 +3845,7 @@ Lebih baik menghilang, ho-oh
 \u266A
 
 Sesungguhnya, aku tak
-sanggup tampamu
+sanggup tanpamu
 
 Tapi tahukah kamu
 
