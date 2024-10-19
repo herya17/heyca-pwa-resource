@@ -134,6 +134,13 @@ module.exports = {
               form_factor: 'narrow',
               label: 'Heyca Wonder Widgets',
             },
+            {
+              src: path.resolve('/images/screenshots/screenshots-4.png'),
+              sizes: '586x1041',
+              type: 'image/png',
+              form_factor: 'narrow',
+              label: 'Heyca Wonder Widgets',
+            },
           ],
           icons: [
             {
@@ -156,16 +163,16 @@ module.exports = {
             },
           ],
         }),        
-        new InjectManifest({
-          swSrc: './src/scripts/sw.js',
-          swDest: 'sw.js',
-          exclude: [
-            /\.png$/,
-            /\.webp$/,
-            /\.jpg$/,
-            /\.mp3$/,
-          ],
-          maximumFileSizeToCacheInBytes: 5000000,
-        }),
+        // new InjectManifest({
+        //   swSrc: './src/scripts/sw.js',
+        //   swDest: 'sw.js',
+        //   exclude: [
+        //     /\.png$/,
+        //     /\.webp$/,
+        //     /\.jpg$/,
+        //     /\.mp3$/,
+        //   ],
+        //   maximumFileSizeToCacheInBytes: 5000000,
+        // }),
     ],
 };
