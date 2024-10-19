@@ -163,16 +163,16 @@ module.exports = {
             },
           ],
         }),        
-        // new InjectManifest({
-        //   swSrc: './src/scripts/sw.js',
-        //   swDest: 'sw.js',
-        //   exclude: [
-        //     /\.png$/,
-        //     /\.webp$/,
-        //     /\.jpg$/,
-        //     /\.mp3$/,
-        //   ],
-        //   maximumFileSizeToCacheInBytes: 5000000,
-        // }),
+        new InjectManifest({
+          swSrc: './src/scripts/sw.js',
+          swDest: 'sw.js',
+          exclude: [
+            /\.png$/,
+            /\.webp$/,
+            /\.jpg$/,
+            /\.mp3$/,
+          ],
+          maximumFileSizeToCacheInBytes: 5000000,
+        }),
     ],
 };
