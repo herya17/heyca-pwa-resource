@@ -177,6 +177,114 @@ function App() {
     });
   }
 
+
+
+
+
+
+  // const audioPlayer = React.useRef();
+  // // const { indexContextValue, isPlayingContextValue } = React.useContext(LocaleContext);
+  // // const { toggleIndex } = indexContextValue;
+  // // const { isPlaying, toggleIsPlaying } = isPlayingContextValue;
+  // // const [ isPlaying, setIsPlaying ] = React.useState(false);
+  // // const [ index, setIndex ] = React.useState(0);
+  // const [ currentTitle, setCurrentTitle ] = React.useState(songs[0].title);
+  // const [ currentSinger, setCurrentSinger ] = React.useState(songs[0].singer);
+  // const [ currentImg, setCurrentImg ] = React.useState(songs[0].img);
+  // const [ currentSong, setCurrentSong ] = React.useState(songs[index].src);
+  // const [ elapsed, setElapsed ] = React.useState(0);
+  // const [ duration, setDuration ] = React.useState(0);
+
+  // React.useEffect(() => {
+  //   if (isPlaying) {
+  //     const interval = setInterval(() => {
+  //       const _elapsed = Math.floor(audioPlayer.current.currentTime);
+  //       const _duration = Math.floor(audioPlayer.current.duration);
+
+  //       setDuration(_duration);
+  //       setElapsed(_elapsed);
+  //     }, 100);
+  //     return () => clearInterval(interval);
+  //   }
+
+  //   const strokeElement = document.querySelectorAll('.stroke');
+  //     strokeElement.forEach(animation => {
+  //       animation.style.animationPlayState = 'paused';
+  //   });
+  // }, [isPlaying]);
+
+  // const togglePlay = () => {
+  //   const strokeElement = document.querySelectorAll('.stroke');
+
+  //   if (isPlaying) {
+  //     audioPlayer.current.pause();
+  //     strokeElement.forEach(animation => {
+  //       animation.style.animationPlayState = 'paused';
+  //     });
+  //   } else {
+  //     audioPlayer.current.play();
+  //     strokeElement.forEach(animation => {
+  //       animation.style.animationPlayState = 'running';
+  //     });
+  //   }
+
+  //   // setIsPlaying(prev => !prev);
+  //   toggleIsPlaying();
+  // }
+
+  // const togglePrev = () => {
+  //   if (index > 0) {
+  //     setIndex(prev => prev - 1);
+  //     audioPlayer.current.src = songs[index - 1].src;
+  //     setCurrentTitle(songs[index - 1].title);
+  //     setCurrentSinger(songs[index - 1].singer);
+  //     setCurrentImg(songs[index - 1].img);
+  //     toggleIndex(index - 1);
+
+  //     if (isPlaying) {
+  //       audioPlayer.current.play();
+  //     }
+  //   }
+  // }
+
+  // const toggleNext = () => {
+  //   if (index >= songs.length - 1) {
+  //     setIndex(0);
+  //     audioPlayer.current.src = songs[0].src;
+  //     setCurrentTitle(songs[0].title);
+  //     setCurrentSinger(songs[0].singer);
+  //     setCurrentImg(songs[0].img);
+  //     toggleIndex(0);
+
+  //     if (isPlaying) {
+  //       audioPlayer.current.play();
+  //     }
+  //   } else {
+  //     setIndex(prev => prev + 1);
+  //     audioPlayer.current.src = songs[index + 1].src;
+  //     setCurrentTitle(songs[index + 1].title);
+  //     setCurrentSinger(songs[index + 1].singer);
+  //     setCurrentImg(songs[index + 1].img);
+  //     toggleIndex(index + 1);
+
+  //     if (isPlaying) {
+  //       audioPlayer.current.play();
+  //     }
+  //   }
+  // }
+
+  // const onEndedEventHandler = () => {
+  //   toggleNext();
+  // }
+
+  
+
+
+
+
+
+
+
   if (initializing) {
     return null;
   }

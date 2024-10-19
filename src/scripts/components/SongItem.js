@@ -1,10 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { MdFavorite, MdMoreVert } from 'react-icons/md';
+import { MdFavorite, MdMoreVert, MdArrowBackIosNew } from 'react-icons/md';
 import FavoriteSongIdb from '../data/favorite-song-idb';
+import LocaleContext from '../contexts/LocaleContext';
 
 function SongItem({ id, img, title, singer }) {
   const [ isFavorite, setIsFavorite ] = React.useState(false);
+  const { indexContextValue, isPlayingContextValue } = React.useContext(LocaleContext);
+  const { toggleIndex } = indexContextValue;
+  const { isPlaying, toggleIsPlaying } = isPlayingContextValue;
 
   React.useEffect(() => {
     const isSongExist = async (id) => {
@@ -19,29 +23,62 @@ function SongItem({ id, img, title, singer }) {
     isSongExist(id);
   }, [id]);
 
+  const onImageClickedHandler = (url) => {
+		const myModal = document.getElementById('myModal');
+		const modalImg = document.getElementById('modalImg');
+
+		myModal.style.display = 'block';
+		modalImg.src = url;
+  }
+  
+  const onCloseHandler = () => {
+		const myModal = document.getElementById('myModal');
+    myModal.style.display = 'none';
+  }
+
+  const btnFavoriteEventHandler = (event, id, msg) => {
+    event.stopPropagation();
+
+    window.alert(`btn clicked ${msg} id: ${id}`);
+  }
+
+  const btnSetMusicPlayerHandler = (event, id) => {
+    event.stopPropagation();
+
+    toggleIndex(id);
+    toggleIsPlaying();
+  }
+
   return (
     <div className='song-item'>
       <img
         src='./images/skeleton/placeholder.webp'
         data-src={img}
         className='animate-fading__playlist lazyload'
-        alt='' />
-      <div className='song-item__body'>
+        alt=''
+        onClick={() => onImageClickedHandler(img)} />
+      <div id='myModal' className='modal'>
+				<span className='close' onClick={onCloseHandler}>
+					<MdArrowBackIosNew />
+				</span>
+				<img className='modal-content' id='modalImg' alt='' />
+			</div>
+      <button className='song-item__body' onClick={(event) => btnFavoriteEventHandler(event, id, 'choose music')}>
         <div className='song-item__box-title'>
           <p className='song-item__title'>{title}</p>
           <p>{singer}</p>
         </div>
         {
           isFavorite
-            ? (<button onClick={() => window.alert(`favorite clicked id: ${id}`)}>
+            ? (<button onClick={(event) => btnFavoriteEventHandler(event, id, 'favorite')}>
                 <MdFavorite className='song-item__icon' />
               </button>)
             : (<div></div>)
         }
-        <button onClick={() => window.alert(`more ver clicked id: ${id}`)}>
+        <button onClick={(event) => btnFavoriteEventHandler(event, id, 'options')}>
           <MdMoreVert className='song-item__icon' />
         </button>
-      </div>
+      </button>
     </div>);
 }
 

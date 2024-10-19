@@ -1417,10 +1417,15 @@ input[type=range]:focus::-ms-fill-upper {
 .song-item__body {
 	display: grid;
 	grid-template-columns: 10fr 1fr 1fr;
+
+	border: 0;
+	background-color: transparent;
+	text-align: left;
+	font-family: 'Quicksand', sans-serif;
 }
 
 .song-item__box-title {
-	padding: 19px 5px 15px 12px;
+	padding: 19px 5px 15px 8px;
 	font-size: 14px;
 	color: var(--color-playlist);
 }
