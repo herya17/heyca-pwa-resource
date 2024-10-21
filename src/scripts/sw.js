@@ -18,17 +18,6 @@ registerRoute(
 );
 
 registerRoute(
-  ({url}) => url.pathname.startsWith('/api/'),
-  new StaleWhileRevalidate({
-    plugins: [
-      new BroadcastUpdatePlugin({
-        headersToCheck: ['X-My-Custom-Header'],
-      }),
-    ],
-  })
-);
-
-registerRoute(
   ({url}) => url.pathname.startsWith('/images/'),
   new StaleWhileRevalidate({
     cacheName: 'images',
@@ -69,6 +58,11 @@ registerRoute(
   ({ url }) => url.href.startsWith('https://notes-api.dicoding.dev/v1'),
   new StaleWhileRevalidate({
     cacheName: 'notesAPI-data',
+    plugins: [
+      new BroadcastUpdatePlugin({
+        headersToCheck: ['notesAPI-data-Header'],
+      }),
+    ],
   }),
 );
 

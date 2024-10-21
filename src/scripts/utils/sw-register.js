@@ -1,8 +1,7 @@
 import { Workbox } from 'workbox-window';
 
-const promptForUpdate = async (text) => {
-  const confirm = window.confirm(`There update version ${text}, you won't ?`);
-  return confirm;
+const promptForUpdate = async () => {
+  return true;
 }
 
 navigator.serviceWorker.addEventListener('message', async event => {
@@ -16,7 +15,6 @@ navigator.serviceWorker.addEventListener('message', async event => {
     const cache = await caches.open(cacheName);
     const updatedResponse = await cache.match(updatedURL);
     const updatedText = await updatedResponse.text();
-    await promptForUpdate(updatedText);
   }
 });
 
@@ -33,7 +31,6 @@ const swRegister = async () => {
 
         if (updateAccepted) {
           wb.messageSkipWaiting();
-          wb.update();
         }
       };
 
