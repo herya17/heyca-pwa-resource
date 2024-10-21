@@ -4250,8 +4250,8 @@ export default lyrics;
 // penyeberangan
 
 // 空を指差して無邪気に笑ってた
-// Kau tertawa dengan polos dan 
-// menunjuk langit
+// Kau menunjuk ke langit dengan
+// tawa yang polos
 
 // 消え入るような透けた虹を
 // Pelangi yang memudar seolah
@@ -4303,7 +4303,7 @@ export default lyrics;
 // dari jembatan penyeberangan
 
 // 架け橋を探すけど
-// Meskipun aku mencari jalan
+// Meskipun aku mencarimu dijalan
 // setapak jembatan penyeberangan
 
 // 君の元へ辿り着けないんだ
@@ -4357,4 +4357,4 @@ export default lyrics;
 
 // 素直な虹を描いてみるから
 // Karena aku akan mencoba
-// menggambar pelangi yang jujur
+// menggambar pelangi kejujuran
