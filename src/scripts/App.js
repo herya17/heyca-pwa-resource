@@ -154,14 +154,14 @@ function App() {
 
   const onLogout = () => {
     Swal.fire({
-      title: 'Kamu kenapa? Yakin ingin pergi?',
-      text: 'Aku gak mau kamu pergi, aku ingin bersama kamu terus!',
+      title: 'Kamu benar ingin pergi?',
+      text: 'Baiklah, aku mengerti perasaanmu bukan untukku, ada seseorang yg jauh lebih memikirkanmu!',
       icon: 'warning',
       showCancelButton: true,
       confirmButtonColor: '#d33',
       cancelButtonColor: '#28a745',
-      confirmButtonText: 'Tetap pergi',
-      cancelButtonText: 'Tetap bersama',
+      confirmButtonText: 'Pergi',
+      cancelButtonText: 'Batal pergi',
     }).then((result) => {
       if (result.isConfirmed) {
         setAuthedUser(null);
@@ -169,8 +169,8 @@ function App() {
         navigate('/');
         Swal.fire({
           icon: 'success',
-          title: 'HeyCa!! Selalu MenantiMu!',
-          text: 'Aku akan selalu ada untukmu dan selalu merindukanmu!',
+          title: 'HeyCa akan selalu baik-baik saja!',
+          text: 'Tidak usah pedulikan HeyCa, pikirkan saja orang yg mencintaimu!',
           showConfirmButton: true,
         });
       }

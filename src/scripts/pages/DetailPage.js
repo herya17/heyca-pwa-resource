@@ -31,21 +31,21 @@ function DetailPage() {
 
   const onDeleteNoteHandler = async (id) => {
     Swal.fire({
-      title: 'Kamu yakin ingin hapus kenangan ini?',
-      text: "Kamu bisa batalin lohh kalo kamu masih peduli!",
+      title: 'Kamu mau hapus cerita ini?',
+      text: "Baiklah, aku mengerti cintamu bukan untukku!",
       icon: 'warning',
       showCancelButton: true,
       confirmButtonColor: '#d33',
       cancelButtonColor: '#28a745',
-      confirmButtonText: 'Gak peduli',
-      cancelButtonText: 'Aku masih peduli',
+      confirmButtonText: 'Hapus',
+      cancelButtonText: 'Jangan hapus',
     }).then(async (result) => {
       if (result.isConfirmed) {
         await deleteNote(id);
         navigate('/');
         Swal.fire({
           icon: 'success',
-          title: 'Kenangan sudah terhapus, jangan sedih aku selalu disisimu!',
+          title: 'Cerita sudah dihapus, semoga kamu mendapatkan cerita idamanmu!',
           showConfirmButton: false,
           timer: 4000,
         });

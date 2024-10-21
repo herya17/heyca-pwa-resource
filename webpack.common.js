@@ -171,7 +171,7 @@ module.exports = {
             /\.webp$/,
             /\.jpg$/,
             /\.mp3$/,
-            /_redirects/,
+            // /_redirects/,
           ],
           maximumFileSizeToCacheInBytes: 5000000,
         }),
