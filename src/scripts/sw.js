@@ -4,6 +4,7 @@ import { CacheableResponsePlugin } from 'workbox-cacheable-response';
 import { ExpirationPlugin } from 'workbox-expiration';
 import { precacheAndRoute } from 'workbox-precaching';
 import { BackgroundSyncPlugin } from 'workbox-background-sync';
+import {BroadcastUpdatePlugin} from 'workbox-broadcast-update';
 
 const bgSyncPlugin = new BackgroundSyncPlugin('Heyca Queue API', {
   maxRetentionTime: 24 * 60 // Retry for max of 24 Hours (specified in minutes)
@@ -14,6 +15,17 @@ registerRoute(
   new NetworkOnly({
     plugins: [bgSyncPlugin]
   }),
+);
+
+registerRoute(
+  ({url}) => url.pathname.startsWith('/api/'),
+  new StaleWhileRevalidate({
+    plugins: [
+      new BroadcastUpdatePlugin({
+        headersToCheck: ['X-My-Custom-Header'],
+      }),
+    ],
+  })
 );
 
 registerRoute(
