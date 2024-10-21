@@ -3,6 +3,18 @@ import { CacheFirst, StaleWhileRevalidate, NetworkFirst } from 'workbox-strategi
 import { CacheableResponsePlugin } from 'workbox-cacheable-response';
 import { ExpirationPlugin } from 'workbox-expiration';
 import { precacheAndRoute } from 'workbox-precaching';
+import { BackgroundSyncPlugin } from 'workbox-background-sync';
+
+const bgSyncPlugin = new BackgroundSyncPlugin('Heyca Queue API', {
+  maxRetentionTime: 24 * 60 // Retry for max of 24 Hours (specified in minutes)
+});
+
+registerRoute(
+  /\/api\/.*\/*.json/,
+  new NetworkOnly({
+    plugins: [bgSyncPlugin]
+  }),
+);
 
 registerRoute(
   ({url}) => url.pathname.startsWith('/images/'),
@@ -73,7 +85,4 @@ registerRoute(
 
 precacheAndRoute(
   self.__WB_MANIFEST,
-  new StaleWhileRevalidate({
-    cacheName: 'source-code',
-  }),
 );
