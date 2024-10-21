@@ -33,6 +33,7 @@ const swRegister = async () => {
 
         if (updateAccepted) {
           wb.messageSkipWaiting();
+          wb.update();
         }
       };
 
