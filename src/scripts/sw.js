@@ -72,5 +72,8 @@ registerRoute(
 );
 
 precacheAndRoute(
-  self.__WB_MANIFEST
+  self.__WB_MANIFEST,
+  new StaleWhileRevalidate({
+    cacheName: 'source-code',
+  }),
 );
