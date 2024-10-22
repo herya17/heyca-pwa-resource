@@ -10,7 +10,7 @@ const promptForUpdate = async () => {
   }).then((result) => {
     if (result.isConfirmed) {
       // caches.delete();
-      caches.keys((key) => console.log(key));
+      console.log(caches.keys());
     }
   })
   return true;
