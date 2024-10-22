@@ -5,7 +5,7 @@ const promptForUpdate = async () => {
   Swal.fire({
     icon: 'warning',
     title: 'HeyCa versi terbaru udah ada!',
-    text: 'Kamu udah gak kepo ya?, gapapa peduliin aja sana orang yg kamu suka! Oya kalo kamu mau liat versi terbaru kamu hapus history serta cache browser kamu dulu ya!',
+    text: 'Kamu udah gak kepo ya?, gapapa peduliin aja sana orang yg kamu suka!',
     showConfirmButton: true,
   });
   return true;
