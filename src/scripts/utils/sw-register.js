@@ -8,9 +8,8 @@ const promptForUpdate = async () => {
     text: 'Kamu udah gak kepo ya?, gapapa peduliin aja sana orang yg kamu suka!',
     showConfirmButton: true,
   }).then((result) => {
-    if (result) {
-      console.log(result);
-      caches.keys().then((keyList) => Promise.all(keyList.map((key) => caches.delete(key))));
+    if (result.isConfirmed) {
+      caches.keys().then(list => list.map(key => caches.delete(key)));
     }
   })
   return true;
