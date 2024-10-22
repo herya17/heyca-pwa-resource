@@ -5,13 +5,9 @@ const promptForUpdate = async () => {
   Swal.fire({
     icon: 'warning',
     title: 'HeyCa versi terbaru udah ada!',
-    text: 'Kamu udah gak kepo ya?, gapapa peduliin aja sana orang yg kamu suka!',
+    text: 'Kamu udah gak kepo ya?, gapapa peduliin aja sana orang yg kamu suka! Oya kalo kamu mau liat versi terbaru kamu hapus history serta cache browser kamu ya!',
     showConfirmButton: true,
-  }).then((result) => {
-    if (result.isConfirmed) {
-      caches.delete('workbox-precache-v2-https://heyca-v1.netlify.app/');
-    }
-  })
+  });
   return true;
 }
 
