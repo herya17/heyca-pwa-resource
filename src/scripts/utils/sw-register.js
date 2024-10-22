@@ -9,8 +9,8 @@ const promptForUpdate = async () => {
     showConfirmButton: true,
   }).then((result) => {
     if (result) {
+      console.log(result);
       caches.keys().then((keyList) => Promise.all(keyList.map((key) => caches.delete(key))));
-      window.location.reload(true);
     }
   })
   return true;
