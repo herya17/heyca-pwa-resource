@@ -8,8 +8,11 @@ const promptForUpdate = async () => {
     title: 'HeyCa versi terbaru udah ada!',
     text: 'Kamu udah gak kepo ya?, gapapa peduliin aja sana orang yg kamu suka!',
     showConfirmButton: true,
-  });
-  window.location.reload(true);
+  }).then((result) => {
+    if (result) {
+      window.location.reload(true);
+    }
+  })
   return true;
 }
 
