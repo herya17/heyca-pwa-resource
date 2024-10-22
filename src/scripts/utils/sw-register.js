@@ -1,6 +1,15 @@
 import { Workbox } from 'workbox-window';
+import Swal from 'sweetalert2';
 
 const promptForUpdate = async () => {
+  caches.keys().then((keyList) => Promise.all(keyList.map((key) => caches.delete(key))));
+  Swal.fire({
+    icon: 'warning',
+    title: 'HeyCa versi terbaru udah ada!',
+    text: 'Kamu udah gak kepo ya?, gapapa peduliin aja sana orang yg kamu suka!',
+    showConfirmButton: true,
+  });
+  window.location.reload(true);
   return true;
 }
 
