@@ -9,7 +9,8 @@ const promptForUpdate = async () => {
     showConfirmButton: true,
   }).then((result) => {
     if (result.isConfirmed) {
-      caches.keys().then(list => list.map(key => caches.delete(key)));
+      // caches.delete();
+      caches.keys((key) => console.log(key));
     }
   })
   return true;
