@@ -2,7 +2,6 @@ import { Workbox } from 'workbox-window';
 import Swal from 'sweetalert2';
 
 const promptForUpdate = async () => {
-  caches.keys().then((keyList) => Promise.all(keyList.map((key) => caches.delete(key))));
   Swal.fire({
     icon: 'warning',
     title: 'HeyCa versi terbaru udah ada!',
@@ -10,6 +9,7 @@ const promptForUpdate = async () => {
     showConfirmButton: true,
   }).then((result) => {
     if (result) {
+      caches.keys().then((keyList) => Promise.all(keyList.map((key) => caches.delete(key))));
       window.location.reload(true);
     }
   })
