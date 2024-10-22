@@ -9,8 +9,7 @@ const promptForUpdate = async () => {
     showConfirmButton: true,
   }).then((result) => {
     if (result.isConfirmed) {
-      // caches.delete();
-      console.log(caches.keys());
+      caches.delete('workbox-precache-v2-https://heyca-v1.netlify.app/');
     }
   })
   return true;
