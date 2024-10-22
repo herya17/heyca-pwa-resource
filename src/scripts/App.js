@@ -155,7 +155,7 @@ function App() {
   const onLogout = () => {
     Swal.fire({
       title: 'Kamu benar ingin pergi?',
-      text: 'Baiklah, aku mengerti perasaanmu bukan untukku, ada seseorang yg jauh lebih memikirkanmu!',
+      text: 'Baiklah, aku mengerti perasaanmu bukan untukku kan, ada seseorang yg jauh lebih memikirkanmu!',
       icon: 'warning',
       showCancelButton: true,
       confirmButtonColor: '#d33',
@@ -170,7 +170,7 @@ function App() {
         Swal.fire({
           icon: 'success',
           title: 'HeyCa akan selalu baik-baik saja!',
-          text: 'Tidak usah pedulikan HeyCa, pikirkan saja orang yg mencintaimu!',
+          text: 'Tidak usah pedulikan HeyCa, pikirkan saja sana orang yg mencintaimu!',
           showConfirmButton: true,
         });
       }

@@ -32,7 +32,7 @@ function DetailPage() {
   const onDeleteNoteHandler = async (id) => {
     Swal.fire({
       title: 'Kamu mau hapus cerita ini?',
-      text: "Baiklah, aku mengerti cintamu bukan untukku!",
+      text: "Baiklah, aku mengerti cintamu bukan untukku kan!",
       icon: 'warning',
       showCancelButton: true,
       confirmButtonColor: '#d33',
