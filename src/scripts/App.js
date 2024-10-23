@@ -170,7 +170,7 @@ function App() {
         Swal.fire({
           icon: 'success',
           title: 'HeyCa akan selalu baik-baik saja!',
-          text: 'Tidak usah pedulikan HeyCa, pikirkan saja sana orang yg mencintaimu!',
+          text: 'Tidak usah pedulikan HeyCa, pikirkan saja sana orang yg mencintai kamu!',
           showConfirmButton: true,
         });
       }
