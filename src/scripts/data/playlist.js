@@ -472,12 +472,19 @@ const songs = [
     singer: 'Afgan',
     src: './songs/music/Jodoh-Pasti-Bertemu-Afgan.mp3',
   },
+  // {
+  //   id: 49,
+  //   img: './images/icon-music/49.webp',
+  //   title: 'Sunao Na Niji',
+  //   singer: 'Surface',
+  //   src: './songs/music/Sunao-Na-Niji-Surface.mp3',
+  // },
   {
-    id: 49,
-    img: './images/icon-music/49.webp',
-    title: 'Sunao Na Niji',
-    singer: 'Surface',
-    src: './songs/music/Sunao-Na-Niji-Surface.mp3',
+    id: 50,
+    img: './images/icon-music/50.webp',
+    title: 'Gravity',
+    singer: 'Bump Of Chicken',
+    src: './songs/music/BUMP-OF-CHICKEN-Gravity.mp3',
   },
 ];
 
