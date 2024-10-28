@@ -45,7 +45,7 @@ function DetailPage() {
         navigate('/');
         Swal.fire({
           icon: 'success',
-          title: 'Cerita sudah dihapus, semoga kamu mendapatkan cerita idamanmu!',
+          title: 'Cerita sudah dihapus, semoga kamu mendapatkan cerita idaman kamu!',
           showConfirmButton: false,
           timer: 4000,
         });
