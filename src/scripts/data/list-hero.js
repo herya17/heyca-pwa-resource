@@ -8,6 +8,7 @@ const listHero = [
   // './images/heros/heyca-5.webp',
   // './images/heros/heyca-6.webp',
   // './images/heros/heyca-7.webp',
+  './images/heros/heyca-0.webp',
   './images/heros/heyca-13.webp',
   './images/heros/heyca-8.webp',
   './images/heros/heyca-9.webp',
@@ -16,7 +17,6 @@ const listHero = [
   './images/heros/heyca-12.webp',
   './images/heros/heyca.webp',
   './images/heros/heyca-7.webp',
-  './images/heros/heyca-0.webp',
   './images/heros/heyca-14.webp',
 ];
 
