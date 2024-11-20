@@ -1,5 +1,10 @@
 const ost = [
   {
+    id: 'ost-0',
+    title: 'Sakura Koi',
+    src: './songs/music/sakura-koi-mosawo.mp3',
+  },
+  {
     id: 'ost-1',
     title: 'First Love',
     src: './songs/ost/First-Love.mp3',
@@ -52,9 +57,23 @@ const newSongs = [
   {
     id: 50,
     img: './images/icon-music/50.webp',
+    title: 'Sukiga Afureteitano',
+    singer: 'Mosawo',
+    src: './songs/music/sukiga-afureteitano-mosawo.mp3',
+  },
+  {
+    id: 51,
+    img: './images/icon-music/51.webp',
     title: 'Gravity',
     singer: 'Bump Of Chicken',
     src: './songs/music/BUMP-OF-CHICKEN-Gravity.mp3',
+  },
+  {
+    id: 52,
+    img: './images/icon-music/52.webp',
+    title: 'Sakura Koi',
+    singer: 'Mosawo',
+    src: './songs/music/sakura-koi-mosawo.mp3',
   },
 ];
 
@@ -405,9 +424,23 @@ const songs = [
   {
     id: 50,
     img: './images/icon-music/50.webp',
+    title: 'Sukiga Afureteitano',
+    singer: 'Mosawo',
+    src: './songs/music/sukiga-afureteitano-mosawo.mp3',
+  },
+  {
+    id: 51,
+    img: './images/icon-music/51.webp',
     title: 'Gravity',
     singer: 'Bump Of Chicken',
     src: './songs/music/BUMP-OF-CHICKEN-Gravity.mp3',
+  },
+  {
+    id: 52,
+    img: './images/icon-music/52.webp',
+    title: 'Sakura Koi',
+    singer: 'Mosawo',
+    src: './songs/music/sakura-koi-mosawo.mp3',
   },
 ];
 
