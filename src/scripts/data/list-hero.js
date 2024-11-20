@@ -28,6 +28,7 @@ const listHero = [
   './images/heros/heyca-22.webp',
   './images/heros/heyca-23.webp',
   './images/heros/heyca-24.webp',
+  './images/heros/heyca-25.webp',
 ];
 
 export default listHero;
