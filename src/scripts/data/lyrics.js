@@ -4192,8 +4192,86 @@ Jodoh pasti bertemu
 // 素直な虹を描いてみるから
 //     `,
 //   },
+//   {
+//     id: 50,
+//     title: 'Monochrome',
+//     text: `
+// Kokoro no sukima ni shizuka ni
+// shimai kondeta
+
+// Moroku hakanai omoi no kakera
+
+// Oto mo tatezu ni kowareteku
+
+// Konna ni kizutsuku kurai nara
+
+// Shirazu ni ita hou ga
+// yokatta ne
+
+// Sono yasashisa wa sono
+// nukumori wa
+
+// Toki ni amari ni mo
+// zankoku de
+
+// Kurushikute setsunakute
+
+// Kono omoi ni oshitsubusaresou
+
+// Afureru namida tomerarenakute
+// furueteitan da
+
+// Chikasugite toosugite
+
+// Anata no kimochi ni
+// kizukenakute
+
+// Awai yume wo mitetan da
+
+// Kanau koto no nai yume wo
+
+// \u266A
+
+// Kitto deatta toki kara
+// kimatteta
+
+// Umaku iku hazu nai to
+// wakatteta
+
+// Tatoe omoi ga todokanakute mo
+
+// Tada soba ni irereba yokatta
+
+// Konna kimochi wa hajimete
+// datta
+
+// Anata ni hikareteitan da
+
+// Monokuro no machi ni furu
+// ame wa
+
+// Watashi no kokoro wo
+// tsumetaku nurashite
+
+// Kurushikute setsunakute
+
+// Kono omoi ni oshitsubusaresou
+
+// Afureru namida tomerarenakute
+// furueteitan da
+
+// Chikasugite toosugite
+
+// Anata no kimochi ni
+// kizukenakute
+
+// Awai yume wo mitetan da
+
+// Kanau koto no nai yume wo
+//     `,
+//   },
   {
-    id: 50,
+    id: 51,
     title: 'Sukiga Afureteitano',
     text: `
 ねえ あなたは幸せだった?
@@ -4272,7 +4350,7 @@ Jodoh pasti bertemu
     `,
   },
   {
-    id: 51,
+    id: 52,
     title: 'Gravity',
     text: `
 帰ろうとしない帰り道 いつもどおり
@@ -4364,7 +4442,7 @@ Jodoh pasti bertemu
     `,
   },
   {
-    id: 52,
+    id: 53,
     title: 'Sakura Koi',
     text: `
 おはよう の度また惹かれてく
@@ -4438,6 +4516,83 @@ Jodoh pasti bertemu
 想い出 預けて 明日へ歩いてく
 
 花びら 泣いてる ひらひらと
+    `,
+  },
+  {
+    id: 54,
+    title: 'Hoshi No Utsuwa',
+    text: `
+どうして どうして 泣いて生まれて
+
+いつか泣かれて 星になっていくんだろう
+
+僕らはどうして どうして 教わってないのに
+
+涙の流し方は 知ってるんだろう
+
+溢れる雫は 絶え間なく
+注がれた愛情の証で
+
+導かれるまま ゆるやかにそっと
+伝ってきたんだ
+
+こころからからだへ からだはこころへ
+
+連なるいくつもの 絡み合った
+らせんの模様
+
+そのひとつひとつに 未来が見えたなら
+眺めているこの空も
+
+ほら 宇宙に見える
+
+
+どうして どうして 月はいつでも
+
+何も言わないで 闇を照らしているんだろう
+
+僕らはどうして どうして 鼓動の数に
+
+限りがあるってのを知っていて
+ムダにしちゃうんだろう
+
+胸に抱えている器の 大きさに
+価値を見出すんじゃなくて
+
+その中にある 熱を帯びたタネに 
+"生命(いのち)"を感じたい
+
+どんなに眼を凝らして
+自分を見ようとしても
+
+ぼやけてよく見えないや
+そのうち見失ってしまう
+
+探せば探すほど 散らかしてしまうなら
+見様見真似だってこの手で
+
+そう 作ればいい
+
+\u266A
+
+生きるっていうこと それはきっと
+少しずつ手放していくこと
+
+最後の一つを失うその時 
+そばにいて 涙をくれる人がいる
+
+それで嬉しい
+
+こころからからだへ からだはこころへ
+
+連なるいくつもの 受け継ぐ らせんの模様
+
+繰り返されてくことが 永遠だと思えた時
+目の前の景色すべてが
+
+いま、宇宙になった
+
+宇宙になった
     `,
   },
 ];
