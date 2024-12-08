@@ -55,11 +55,25 @@ const newSongs = [
   //   src: './songs/music/Sunao-Na-Niji-Surface.mp3',
   // },
   {
+    id: 14,
+    img: './images/icon-music/47.webp',
+    title: 'Cinta Ini Membunuhku',
+    singer: `D'masiv`,
+    src: './songs/music/DMasiv-Cinta-Ini-Membunuhku.mp3',
+  },
+  {
     id: 20,
     img: './images/icon-music/29.webp',
     title: 'Hati Lain Di Hatimu',
     singer: 'Fabio Asher',
     src: './songs/music/Fabio-Asher-Hati-Lain-Di-Hatimu.mp3',
+  },
+  {
+    id: 21,
+    img: './images/icon-music/42.webp',
+    title: 'Pergi Saja',
+    singer: 'Geisha',
+    src: './songs/music/Geisha-Pergi-Saja.mp3',
   },
   {
     id: 27,
@@ -68,13 +82,13 @@ const newSongs = [
     singer: 'Geisha',
     src: './songs/music/Geisha-Jika-Cinta-Dia-.mp3',
   },
-  // {
-  //   id: 50,
-  //   img: './images/icon-music/50.webp',
-  //   title: 'Sukiga Afureteitano',
-  //   singer: 'Mosawo',
-  //   src: './songs/music/sukiga-afureteitano-mosawo.mp3',
-  // },
+  {
+    id: 50,
+    img: './images/icon-music/50.webp',
+    title: 'Sukiga Afureteitano',
+    singer: 'Mosawo',
+    src: './songs/music/sukiga-afureteitano-mosawo.mp3',
+  },
   // {
   //   id: 51,
   //   img: './images/icon-music/51.webp',
