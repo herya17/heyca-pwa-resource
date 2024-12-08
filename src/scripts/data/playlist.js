@@ -68,13 +68,13 @@ const newSongs = [
     singer: 'Fabio Asher',
     src: './songs/music/Fabio-Asher-Hati-Lain-Di-Hatimu.mp3',
   },
-  {
-    id: 21,
-    img: './images/icon-music/42.webp',
-    title: 'Pergi Saja',
-    singer: 'Geisha',
-    src: './songs/music/Geisha-Pergi-Saja.mp3',
-  },
+  // {
+  //   id: 21,
+  //   img: './images/icon-music/42.webp',
+  //   title: 'Pergi Saja',
+  //   singer: 'Geisha',
+  //   src: './songs/music/Geisha-Pergi-Saja.mp3',
+  // },
   {
     id: 27,
     img: './images/icon-music/41.webp',
