@@ -4351,35 +4351,45 @@ menggambar pelangi kejujuran
     id: 51,
     title: 'Freesia',
     text: `
-Soon
+lorem ipsum dolor sit amet
+
+you have a new one
     `,
   },
   {
     id: 52,
     title: 'Remember',
     text: `
-Soon
+lorem ipsum dolor sit amet
+
+you have a new one
     `,
   },
   {
     id: 53,
     title: 'Anataga Iru Kotode',
     text: `
-Soon
+lorem ipsum dolor sit amet
+
+you have a new one
     `,
   },
   {
     id: 54,
     title: 'Musume Yori',
     text: `
-Soon
+lorem ipsum dolor sit amet
+
+you have a new one
     `,
   },
   {
     id: 55,
     title: 'Soreo Aito Yobunara',
     text: `
-Soon
+lorem ipsum dolor sit amet
+
+you have a new one
     `,
   },
   {
