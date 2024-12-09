@@ -75,13 +75,13 @@ const newSongs = [
     singer: 'Geisha',
     src: './songs/music/Geisha-Jika-Cinta-Dia-.mp3',
   },
-  {
-    id: 49,
-    img: './images/icon-music/19.webp',
-    title: 'Sunao Na Niji',
-    singer: 'Surface',
-    src: './songs/music/Sunao-Na-Niji-Surface.mp3',
-  },
+  // {
+  //   id: 49,
+  //   img: './images/icon-music/49.webp',
+  //   title: 'Sunao Na Niji',
+  //   singer: 'Surface',
+  //   src: './songs/music/Sunao-Na-Niji-Surface.mp3',
+  // },
   {
     id: 52,
     img: './images/icon-music/53.webp',
