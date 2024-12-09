@@ -4353,7 +4353,7 @@ menggambar pelangi kejujuran
     text: `
 lorem ipsum dolor sit amet
 
-you have a new one
+your feelings not for me
     `,
   },
   {
@@ -4362,7 +4362,7 @@ you have a new one
     text: `
 lorem ipsum dolor sit amet
 
-you have a new one
+your feelings not for me
     `,
   },
   {
@@ -4371,7 +4371,7 @@ you have a new one
     text: `
 lorem ipsum dolor sit amet
 
-you have a new one
+your feelings not for me
     `,
   },
   {
@@ -4380,7 +4380,7 @@ you have a new one
     text: `
 lorem ipsum dolor sit amet
 
-you have a new one
+your feelings not for me
     `,
   },
   {
@@ -4389,7 +4389,7 @@ you have a new one
     text: `
 lorem ipsum dolor sit amet
 
-you have a new one
+your feelings not for me
     `,
   },
   {
