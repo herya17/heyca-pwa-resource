@@ -4397,78 +4397,139 @@ your feelings not for me
     title: 'Sukiga Afureteitano',
     text: `
 ねえ あなたは幸せだった?
+Hei, apa kau bahagia bersamaku?
 
 どうして変わってしまったの
+Kenapa kau berubah
 
 ねえ もう会えないなんて言わないで
+Hei, jangan bilang kau tidak
+bisa melihatku lagi
 
 また私を泣かせるのね
+Kau membuatku menangis lagi
 
 曖昧な言葉で濁さないで
+Jangan memberiku jawaban tidak
+jelas
 
 誰よりもあなたのこと好きなのに
+Aku mencintaimu lebih dari
+siapa pun
 
 私だけ好きが溢れていたの
+Hanya aku yang dipenuhi dengan
+cinta
 
 甘えすぎたかな
+Mungkin aku terlalu
+mengandalkanmu
 
 当たり前の幸せずっと続いてく
+Kebahagiaan sederhana ini akan
+bertahan selamanya
 
 そう思っていたのにな
+Atau begitulah yang kukira
 
 もしもあの頃に戻れるなら
+Jika bisa kembali ke masa lalu
 
 嘘をついてもいいから
+Kau bisa berbohong kepadaku
+jika kau mau
 
 もう一度私のこと抱きしめてよ
+Peluk saja aku, sekali lagi
 
 涙がこぼれてしまう前に
+Sebelum air mataku mulai
+mengalir deras
 
 ねえ 私のどこが嫌だった?
+Hei, apa yang tak kau sukai
+dariku?
 
 ちゃんと教えて欲しかったの
+Aku ingin kau memberitahuku
 
 少しづつ離れていくあなた
+Kau perlahan menjauh dariku
 
 行かないでと追いかけたけど
+Aku tak mau kau pergi
+jadi, aku mengejarmu
 
 私だけ好きが溢れていたの
+Hanya aku yang dipenuhi dengan
+cinta
 
 追えば追うほどに
+Makin aku mengejarmu
 
 抑えきれず想いがずっと募ってく
+Makin tidak bisa kutahan
+perasaanku kepadamu
 
 もうどうしたらいいかな
+Aku tak tahu harus bagaimana
 
 ただ側に居てほしいだけなの
+Aku hanya ingin kau berada
+di sisiku
 
 重くなりすぎたのかな
+Apa aku menjadi beban?
 
 あなたしか見えないの
+Hanya kau yang ada
+di pikiranku
 
 また抱きしめてよ
+Tolong peluk aku lagi
 
 心が渇いてしまう前に
+Sebelum hatiku benar-benar
+hangus
 
 その笑顔も泣き虫なところも全部
+Dari caramu tersenyum
+hingga caramu mudah menangis
 
 あなたに似たはずなのにな
+Kita seharusnya mirip dalam
+banyak hal, kau dan aku
 
 私だけ好きが溢れていたの
+Hanya aku yang dipenuhi dengan
+cinta
 
 甘えすぎたかな
+Mungkin aku terlalu
+mengandalkanmu
 
 当たり前の幸せずっと続いてく
+Kebahagiaan sederhana ini akan
+bertahan selamanya
 
 そう思っていたのにな
+Atau begitulah yang kukira
 
 苦しいくらい恋をしてたの
+Cintaku padamu sangat dalam
+hingga menyakitkan
 
 言葉にできないほどに
+Aku bahkan tidak bisa berkata-
+kata
 
 こんなにも涙が止まらないのなら
+Jika cinta membuatku menangis
+tanpa henti
 
 愛なんかいらない うんざりなの
+Aku tidak butuh cinta,
+aku sudah muak
     `,
   },
   {
@@ -4476,91 +4537,233 @@ your feelings not for me
     title: 'Gravity',
     text: `
 帰ろうとしない帰り道 いつもどおり
+Di jalan pulang biasanya
+ketika kita tak pulang
 
-視界の隅っこ ほとんど外 君が鼻を
-すすった
+視界の隅っこ ほとんど外 
+Aku melihatmu menarik nafas
+
+君が鼻をすすった
+Seolah di luar jangkauanku
 
 空を割る夕方のサイレン
+Suara sirine di saat senja
+membagi langit
 
 給水塔の下 あれは蝙蝠
+Ada kelelawar di bawah menara
+air
 
 僕らは時計を見ないようにしていたけど
+Kita berdua bagaikan tak ingin
+melihat jam
 
 そんな風にして時間に気付いてしまうから
+Karena dengan seperti itu,
+kita akan menyadari waktu
 
 かき消すように喋ろうとして
+Kita mencoba bicara untuk
+menghapus waktu
 
 なんだかやっぱり黙ってしまう
+Tapi pada akhirnya, kita hanya
+terdiam saja
 
 君の影の 君らしい揺れ方を
+Bayangan yang berayun seperti
+sosokmu itu
 
-眺めているだけで 泣きそうになったよ
+眺めているだけで 
+Hanya memandangnya saja
+
+泣きそうになったよ
+Membuatku ingin menangis
 
 
-見つけた言葉いくつ 繋げたって遠ざかる
+見つけた言葉いくつ 
+Kata-kata yang kutemukan
+hilang
 
-今一番伝えたい想いが 胸の中 声を上げる
+繋げたって遠ざかる
+Meski aku sudah merangkainya
 
-そんなの全て飛び越えて 子供のまま笑って
+今一番伝えたい想いが 
+Perasaan yang ingin
+kuungkapkan
 
-裸足のメロディー歌うから いつも
-今を許してしまう
+胸の中 声を上げる
+Saat ini berteriak di dalam
+hatiku
+
+そんなの全て飛び越えて
+Aku akan melampaui semua itu
+
+子供のまま笑って
+Lalu tersenyum seperti anak-
+anak
+
+裸足のメロディー歌うから
+Karena aku menyanyikan melodi
+apa adanya
+
+いつも今を許してしまう
+Aku dapat memaafkan saat
+ini
 
 笑顔のまま ずるいよな
+Dengan tetap tersenyum,
+sungguh tak adil
 
-いつの日か どっちかが遠くに行ったりして
+いつの日か どっちかが
+Suatu saat, salah satu
+di antara kita
 
-会えなくなったりするのかな 今が
-嘘みたいに
+遠くに行ったりして
+Akan pergi dengan jauh
+
+会えなくなったりするのかな
+Apakah kita tak akan bertemu
+lagi?
+
+今が嘘みたいに
+Saat ini bagaikan kebohongan
 
 じゃあまた会えた時 今みたいに
+Kalau begitu ketika kita
+bertemu lagi, seperti saat
+ini
 
 黙ったままで側にいられるのかな
+Bolehkah aku berada di sisimu
+dengan terdiam seperti ini?
 
-大人っぽく振る舞ったり 尖ってみせたり
+大人っぽく振る舞ったり
+Bertingkah seperti orang
+dewasa
 
-刺さった時に誤魔化して 変な感じ
-になったり
+尖ってみせたり
+Dan berpura-pura kuat
+
+刺さった時に誤魔化して
+Membohongi diri sendiri
+
+変な感じになったり
+Ketika ada masalah hingga
+terasa aneh
 
 そういうの まとめて愛せるくらいに
+Apakah semua itu adalah cara
+agar dapat dicintai?
 
 僕らは僕らを信じられていた
+Kita hanya dapat mempercayai
+kita sendiri
 
 わりと同時に くしゃみしちゃうのが
+Kita berdua dapat bersin
+di saat yang sama
 
-面白かったよ 泣きそうになったよ
+面白かったよ
+Begitu menyenangkan
 
-今日が明日 昨日になって 誰かが忘れたって
+泣きそうになったよ
+Hingga membuatku ingin
+menangis
 
-今君がここにいる事を 僕は忘れないから
+今日が明日 昨日になって
+Hari ini akan menjadi esok
+dan kemarin
 
-見えない涙拭って 謝るように笑って
+誰かが忘れたって
+Seseorang akan melupakannya
 
-触ったら消えてしまいそうな 細い
-指の冷たさが
+今君がここにいる事を
+Tapi aku pasti takkan
+melupakan dirimu
+
+僕は忘れないから
+Yang ada di saat sekarang ini
+
+見えない涙拭って
+Mengusap air mata yang tak
+terlihat
+
+謝るように笑って
+Tersenyum seolah mamaafkannya
+
+触ったら消えてしまいそうな
+Seolah menghilang ketika aku
+menyentuhnya
+
+細い指の冷たさが
+Tapi dinginnya jari tipismu
 
 火傷みたいに残っている
+Masih membekas seperti luka
+bakar
 
 \u266A
 
-見つけた言葉いくつ 繋げたって遠ざかる
+見つけた言葉いくつ
+Kata-kata yang kutemukan
+hilang
 
-今一番伝えたい想いが 胸の中 声を上げる
+繋げたって遠ざかる
+Meski aku sudah merangkainya
 
-せーので全て飛び越えて 僕らのまま笑って
+今一番伝えたい想いが
+Perasaan yang ingin
+kuungkapkan saat ini
 
-裸足のメロディー歌うから そして
-一緒に手を振るんだよ
+胸の中 声を上げる
+Berteriak di dalam hatiku
 
-笑顔のまま またねって
+せーので全て飛び越えて
+Mari kita melampaui semua itu
 
-雨でも晴れでも 空のない世界でも
+僕らのまま笑って
+Lalu tersenyum seperti kita
+biasanya
 
-また明日 明日が ちゃんときますように
+裸足のメロディー歌うから
+Karena aku menyanyikan melodi
+apa adanya
 
-一緒じゃなくても 一人だったとしても
+そして一緒に手を振るんだよ
+Mari kita melambaikan tangan
 
-また明日の中に 君がいますように
+笑顔のまま
+Dengan tetap tersenyum,
+
+またねって
+berkata "sampai jumpa"
+
+雨でも晴れでも
+Baik itu cerah atau hujan
+
+空のない世界でも
+Bahkan di dunia tanpa langit
+sekali pun
+
+また明日 明日が
+"Sampai jumpa"
+
+ちゃんときますように
+Aku berharap saat-saat itu
+benar-benar datang
+
+一緒じゃなくても
+Meskipun kita tak bersama
+
+一人だったとしても
+Meskipun aku hanya sendiri
+
+また明日の中に
+Di dalam "sampai jumpa" itu
+
+君がいますように
+Aku berharap kau tetap ada
     `,
   },
   {
@@ -4568,76 +4771,145 @@ your feelings not for me
     title: 'Sakura Koi',
     text: `
 おはよう の度また惹かれてく
+Dengan setiap "selamat pagi",
+aku makin tertarik kepadamu
 
 春の凪 あなたの匂い
+Aku bisa mencium aromamu
+di angin musim semi
 
 すれ違っただけなのに嬉しくて
+Kita hanya saling berpapasan
+dan aku sangat senang
 
 振り向いてよ 願いを内に秘め
+Aku berharap kau berbalik,
+sebuah harapan yang
+kusembunyikan darimu
 
 見慣れたはずの姿が
+Seharusnya aku sudah terbiasa
+melihatmu sekarang
 
 瞼の裏に焼きついたまま
+Namun, penampakanmu tetap
+memukauku
 
 あなたの瞳に映る子は
+Gadis yang tercermin
+di matamu
 
 桜より綺麗で
+Lebih cantik daripada bunga
+sakura
 
 さようなら 恋した私
+Selamat tinggal diriku yang
+jatuh cinta
 
 叶わない 気付いてた
+Aku tahu aku tidak punya
+kesempatan
 
-あなたのことが好きだよ
+あなたのことが 好きだよ
+Tapi aku sangat mencintaimu
 
 好きだったの
+Aku sangat mencintaimu
 
-ダメかな？私じゃ 今更遅いよね
+ダメかな？ 私じゃ
+Tidak bisakah aku menjadi
+orangnya?
+
+今更遅いよね
+Kurasa sekarang sudah
+terlambat
 
 遠くから眺めているだけで
+Hanya melihatmu dari jauh
 
 幸せを感じていたよ
+Aku merasa sangat bahagia
 
 どんな時も優しさに溢れてた
+Kau selalu penuh kebaikan
 
 そっけないところも愛おしくて
+Aku bahkan mencintaimu saat
+kau jauh
 
 いつも通りの教室
+Kelas terasa sama seperti
+biasanya
 
 別れの日が今近づいてる
+Tapi hari kita berpisah makin
+dekat
 
 振り返ればいつだって
+Melihat kembali hari-hari
+di sini
 
 あなたを想ってた
+Kau selalu ada di hatiku
 
 さようなら 恋した私
+Selamat tinggal diriku yang
+jatuh cinta
 
 嫌になる 悔しくて
+Ini menyebalkan dan aku
+membencinya
 
-あなたの顔が消えない
+あなたの顔が 消えない
+Tapi aku tak bisa berhenti
+melihat wajahmu
 
 消えないのよ
+Wajahmu tak menghilang
 
 どうして 浮かぶの
+Kenapa aku tidak bisa
+berhenti melihat
 
-ずるいよその笑顔
+ずるいよ その笑顔
+Senyummu? ini tidak adil
 
 \u266A
 
 道端の蕾が開く
+Bunga-bunga di sepanjang
+jalan mulai bermekaran
 
 ああ もう別れの日
+Oh, hari itu telah tiba,
+Kita akan menempuh jalan
+masing-masing
 
 さようなら 恋した私
+Selamat tinggal diriku yang
+jatuh cinta
 
 最後まで言えなかった
+Aku tidak bisa mengatakannya
+sampai akhir
 
-あなたのことが好きだよ
+あなたのことが 好きだよ
+Bahwa aku sangat mencintaimu
 
 好きだったの
+Aku sangat mencintaimu
 
-想い出 預けて 明日へ歩いてく
+想い出 預けて 
+Akan kutinggalkan kenangan
+
+明日へ歩いてく
+Lalu berjalan menuju hari
+esok
 
 花びら 泣いてる ひらひらと
+Bunga-bunga menangis,
+kelopak bunga berguguran
     `,
   },
   {
@@ -4645,76 +4917,144 @@ your feelings not for me
     title: 'Hoshi No Utsuwa',
     text: `
 どうして どうして 泣いて生まれて
+Kenapa, kenapa kita menangis
+saat dilahirkan
 
 いつか泣かれて 星になっていくんだろう
+Bukankah suatu hari nanti kita
+akan menjadi bintang dan
+ditangisi oleh yang lain?
 
-僕らはどうして どうして 教わってないのに
+僕らはどうして どうして
+教わってないのに
+Kenapa, kenapa kita tahu cara 
+meneteskan air mata
 
 涙の流し方は 知ってるんだろう
+Meskipun tak diajarkan
+bagaimana caranya
 
 溢れる雫は 絶え間なく
 注がれた愛情の証で
+Tetesan air mata tanpa henti
+yang meluap adalah bukti dari
+cinta
 
 導かれるまま ゆるやかにそっと
 伝ってきたんだ
+Memandangmu denga pelan dan
+lembut untuk pergi bersama
 
 こころからからだへ からだはこころへ
+Dari hati ke tubu, dari tubuh
+ke hati
 
 連なるいくつもの 絡み合った
 らせんの模様
+Pola berkelanjutan dari banyak
+spiral yang saling terikat
 
 そのひとつひとつに 未来が見えたなら
 眺めているこの空も
+Jika kau bisa melihat masa
+depan di masing-masing dari
+mereka, maka di langit yang
+kau pandangi ini juga
 
 ほら 宇宙に見える
+Alam semesta akan terlihat
 
 
 どうして どうして 月はいつでも
+Kenapa, kenapa bulan selalu
 
-何も言わないで 闇を照らしているんだろう
+何も言わないで 
+闇を照らしているんだろう
+Menyinari kegelapan tanpa
+mengatakan apapun?
 
 僕らはどうして どうして 鼓動の数に
+Kenapa, kenapa kita membuang-
+buang waktu
 
 限りがあるってのを知っていて
 ムダにしちゃうんだろう
+Padahal kita tahu ada batas
+jumlah dari detak jantung kita
 
 胸に抱えている器の 大きさに
 価値を見出すんじゃなくて
+Bukan untuk mencari tahu
+besarnya nilai wadah yang ada
+di hatiku
 
 その中にある 熱を帯びたタネに 
 "生命(いのち)"を感じたい
+Tapi aku ingin merasakan
+kehidupan dan kehangatan benih
+yang berada dalam wadah itu
 
 どんなに眼を凝らして
 自分を見ようとしても
+Tak peduli seberapa keras aku
+mencoba konsentrasi untuk
+melihat diriku sendiri
 
 ぼやけてよく見えないや
 そのうち見失ってしまう
+Aku tak bisa melihat dengan
+baik dan buram, mungkin aku
+akan menjadi buta
 
 探せば探すほど 散らかしてしまうなら
 見様見真似だってこの手で
+Jika semakin kucari akan
+semakin berantakan, maka
+dengan tangan ini aku hanya
+akan menirunya
 
 そう 作ればいい
+Dan membuatnya sendiri
 
 \u266A
 
 生きるっていうこと それはきっと
 少しずつ手放していくこと
+Untuk hidup, itu berarti
+untuk melepaskan sedikit
+demi sedikit
 
 最後の一つを失うその時 
 そばにいて 涙をくれる人がいる
+Saat aku kehilangan bagian
+terakhir, ada seseorang yang
+akan menangis untukku
 
 それで嬉しい
+Itu saja sudah membuatku
+bahagia
 
 こころからからだへ からだはこころへ
+Dari hati ke tubuh, dari tubuh
+ke hati
 
-連なるいくつもの 受け継ぐ らせんの模様
+連なるいくつもの 受け継ぐ
+らせんの模様
+Pola berkelanjutan dari banyak
+spiral yang berhasil
 
 繰り返されてくことが 永遠だと思えた時
 目の前の景色すべてが
+Saat kupikir pengulangan ini
+abadi, semua pemandangan yang
+ada di depan mataku
 
 いま、宇宙になった
+Sekarang berubah menjadi alam
+semesta
 
 宇宙になった
+Menjadi alam semesta
     `,
   },
 ];
