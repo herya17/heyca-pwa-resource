@@ -4351,36 +4351,310 @@ menggambar pelangi kejujuran
     id: 51,
     title: 'Freesia',
     text: `
-lorem ipsum dolor sit amet
+漂う宇宙のどこか遠く
+Jika di suatu tempat di luar
+angkasa yang jauh
 
-your feelings not for me
+祈り通ずる惑星があるとしたら
+Ada planet yang dapat membuat
+doa menjadi nyata
+
+僕らはそこへ向かうだろうか
+Maka apakah kita akan berusaha
+pergi ke sana?
+
+そして何を祈るのだろう
+Kemudian apakah yang akan kita
+doakan?
+
+果たせなかった約束や
+M
+
+犠牲になった高潔の光
+
+
+残る物など何もないとしても
+
+今は信じた道をただ進め
+
+希望のはな 繋いだ絆が
+
+今僕らの胸の中にあるから
+
+決して散ることはない
+
+生きる力
+
+希望のはな 繋いだ絆を
+
+力にして明日を強く咲き誇れ
+
+戻る場所なんてない辿り着く
+べき場所へと
+
+迷いのない旗を高く掲げて
+
+今を生きていく
+
+\u266A
+
+見えないものに 怯えていた
+
+弛むことない この世界の中
+
+それでも一つ 心の波間に
+
+変わらないもの 浮かべながら
+
+希望のはな 繋いだ絆が
+
+今僕らの胸の中にあるから
+
+綻びを縫い合い
+
+強くなれる
+
+希望のはな 繋いだ絆を
+
+力にして 明日を強く咲き誇れ
+
+何の為向かうのか見失いそうな時に
+
+守り抜きたいものがあること
+
+気付いたんだ
+
+傷を隠し 一人泣いた夜に
+
+くれた優しさ 溢れ出したのは
+
+未来を誓った「決意の涙」
+
+希望のはな 繋いだ絆が
+
+今僕らの胸の中にあるから
+
+決して散ることはない
+
+生きる力
+
+希望のはな 繋いだ絆を
+
+力にして明日を強く咲き誇れ
+
+戻る場所なんてない辿り着く
+べき場所へと
+
+迷いのない旗を高く掲げて
+
+今を生きていく
     `,
   },
   {
     id: 52,
     title: 'Remember',
     text: `
-lorem ipsum dolor sit amet
+夏の終わりを知らせるように
+Seolah mengabarkan akhir
+musim panas
 
-your feelings not for me
+道端にそっと 並んで咲いた
+Perlahan berjajar dan
+bermekaran di pinggir jalan
+
+夕にも染まらず風も知らない
+Tak pudar oleh senja,
+ta peduli hembusan angin
+
+青い 青い リンドウ
+Birunya, birunya, bunga
+lonceng jepang
+
+傷つくことを恐れながら
+Meskipun aku pernah
+menyembunyikan hati ini
+
+心を隠したりしたけれど
+Karena begitu takut akan
+terluka, namun
+
+誰かが傍にいてくれる温かさを
+Engkau telah mengajarkan
+kepadaku tentang kehangatan
+
+教えてもらったから
+Ketika seseorang berada di
+sisi kita
+
+さよならじゃない
+Ini bukanlah perpisahan
+
+名も知らない遠い場所へ
+Untuk tempat yang jauh, yang
+aku pun tak tahu dimana
+
+離れたとしても 記憶の中で
+Meskipun kita terpisah, kamu
+akan selalu hidup
+
+息をし続ける
+Di dalam ingatanku
+
+夜に埋もれて
+Terkubur oleh malam
+
+誰も知らない遠い場所へ
+Di tempat yang jauh, tidak
+seorang pun yang tahu
+
+迷ったとしても 記憶の中の
+Meskipun jika aku tersesat,
+kehangatan di dalam ingatanku
+
+温もりでずっと今を照らせるよう
+Saat ini akan selalu bersinar
+menerangi
+
+\u266A
+
+遠くで聞こえる祭りの声は
+
+
+関係ないんだって そう思っていた
+
+見たくもなかった境界線が
+
+寂しかった日々
+
+誰の背中も追わなかった
+
+時には嘘もついたけれど
+
+守りたいものがここにできたこと
+
+それがただ嬉しくて
+
+さよならじゃない
+
+向かい合えずいた寂しさも
+
+帰りたい場所がここにあるだけで
+
+それだけで 強さに変わる
+
+愛されたいと本当はもがいていた
+
+この孤独も涙も包むような
+
+優しさに出逢えたから
+
+さよならじゃない
+
+例えばもう 会えなくなっても
+
+きっとどこかで 笑っていると
+
+心繋げて
+
+さよならじゃない
+
+名も知らない遠い場所へ
+
+離れたとしても 記憶の中の
+
+温もりを ずっとずっと忘れないよ
     `,
   },
   {
     id: 53,
     title: 'Anataga Iru Kotode',
     text: `
-lorem ipsum dolor sit amet
+どんな言葉で
 
-your feelings not for me
+今あなたに伝えられるだろう
+
+不器用な僕だけど
+
+ちゃんとあなたに届くように
+
+明日が見えなくなって
+
+信じることが怖くなって
+
+過去を悔やんでは責めたりもしたけれど
+
+僕を愛し続けてくれた人
+
+もしも明日世界が終わっても
+
+会えない日々が続いたとしても
+
+僕はずっとあなたを想うよ
+
+あの日僕にくれたあなたの笑顔が
+
+生きる力と勇気をくれたんだ
+
+星が見えない 孤独な夜でも
+
+あなたがいる ただそれだけで
+
+強くなれる
+
+目が合えば笑って
+
+一緒にいれば楽しくて
+
+共に過ごした毎日は
+
+かけがえのないものだった
+
+向かい風が冷たくて
+
+忘れてしまいそうになるけど
+
+通り過ぎてきた何気ない日々の中に
+
+僕らの幸せは確かにあった
+
+もしも明けない夜の中で
+
+一人静かに泣いているのなら
+
+あなたが僕を信じてくれたように
+
+次は僕がその手を強く握るから
+
+傷つくことから逃げていた
+
+この心動かすのは
+
+弱さを見せないあなたが
+
+初めて見せた涙
+
+いつか僕に話してくれた
+
+あなたが描いた未来の中に
+
+僕ら一緒にいられるように
+
+あなたがいることでどんな明日も
+
+歩いていける光になるから
+
+星が見えない孤独な夜でも
+
+信じられる 僕らまたここで
+
+笑える日を
     `,
   },
   {
     id: 54,
     title: 'Musume Yori',
     text: `
-lorem ipsum dolor sit amet
-
-your feelings not for me
+lorem ip
     `,
   },
   {
