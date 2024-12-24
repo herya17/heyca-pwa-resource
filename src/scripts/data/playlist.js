@@ -47,13 +47,13 @@ const ost = [
 ];
 
 const newSongs = [
-  {
-    id: 14,
-    img: './images/icon-music/47.webp',
-    title: 'Cinta Ini Membunuhku',
-    singer: `D'masiv`,
-    src: './songs/music/DMasiv-Cinta-Ini-Membunuhku.mp3',
-  },
+  // {
+  //   id: 14,
+  //   img: './images/icon-music/47.webp',
+  //   title: 'Cinta Ini Membunuhku',
+  //   singer: `D'masiv`,
+  //   src: './songs/music/DMasiv-Cinta-Ini-Membunuhku.mp3',
+  // },
   {
     id: 20,
     img: './images/icon-music/29.webp',
@@ -82,27 +82,27 @@ const newSongs = [
   //   singer: 'Surface',
   //   src: './songs/music/Sunao-Na-Niji-Surface.mp3',
   // },
-  {
-    id: 51,
-    img: './images/icon-music/54.webp',
-    title: 'Freesia',
-    singer: 'Uru',
-    src: './songs/music/Freesia.mp3',
-  },
-  {
-    id: 52,
-    img: './images/icon-music/55.webp',
-    title: 'Remember',
-    singer: 'Uru',
-    src: './songs/music/remember.mp3',
-  },
-  {
-    id: 53,
-    img: './images/icon-music/56.webp',
-    title: 'Anataga Iru Kotode',
-    singer: 'Uru',
-    src: './songs/music/Anataga-Iru-Kotode.mp3',
-  },
+  // {
+  //   id: 51,
+  //   img: './images/icon-music/54.webp',
+  //   title: 'Freesia',
+  //   singer: 'Uru',
+  //   src: './songs/music/Freesia.mp3',
+  // },
+  // {
+  //   id: 52,
+  //   img: './images/icon-music/55.webp',
+  //   title: 'Remember',
+  //   singer: 'Uru',
+  //   src: './songs/music/remember.mp3',
+  // },
+  // {
+  //   id: 53,
+  //   img: './images/icon-music/56.webp',
+  //   title: 'Anataga Iru Kotode',
+  //   singer: 'Uru',
+  //   src: './songs/music/Anataga-Iru-Kotode.mp3',
+  // },
   {
     id: 54,
     img: './images/icon-music/53.webp',
