@@ -26,7 +26,7 @@ function DetailPage() {
         Tak terasa sudah sangat lama aku merasakan hal yang sangat tidak menyenangkan dalam hati yang penuh bergejolak dengan rasa marah, cemas, tanpa ada henti yg terkadang emosi ini gak bisa aku tahan.
         Aku sempat berandai kapan ini akan berakhir, perasaan yg gak nyaman ini. Aku tinggal di tempat kelahiranku disini dan ini baru pertama kali nya aku merasakan seperti bukan tinggal di rumah dimana aku bisa pulang dengan nyaman.
         Aku sampai berkeingin untuk keluar dari rumah ini, dan tidak pernah kembali dan mencari rumah baru yg nyaman untuk pulang.
-        Ohya aku terkadang mengetahui pesan yg kamu sampaikan entah ini hanya firasat atau memang hanya kebetulan, aku gk bisa memahaminya. Kamu mungkin cuman gak tega karena aku telah melakukan beberapa hal, mungkin sekarang aku telah mengetahuinya kalo perasaan kamu bukan untukku, atau mungkin sejak dulu.
+        Ohya aku terkadang mengetahui pesan yg kamu sampaikan entah ini hanya firasat atau memang hanya kebetulan, entah dapat dipercaya atau tidak, aku gk bisa memahaminya. Kamu mungkin cuman gak tega karena aku telah melakukan beberapa hal, mungkin sekarang aku telah mengetahuinya kalo perasaan kamu bukan untukku, atau mungkin sejak dulu.
         Dari kenyataan ini aku dapat melihat kalo hati seseorang gak bisa di pakasain.<br /><br />
         Di hari Natal yg suci ini aku berharap kamu bisa berubah dari hal-hal yg banyak ingin aku perbaiki dari kamu, ada banyak hal yg ingin aku protes ke kamu, banyak bangett. 
         Dan pada Natal ini aku dari dulu hanya berharapkan semua hal yg aku khawatirkan benar tidak adanya. 
