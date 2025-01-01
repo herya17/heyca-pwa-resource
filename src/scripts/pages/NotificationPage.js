@@ -32,7 +32,7 @@ function DetailPage() {
         Dan pada Natal ini aku dari dulu hanya berharapkan semua hal yg aku khawatirkan benar tidak adanya. 
         Dan semoga Tuhan memberikan kita anugerah untuk menjadi pribadi yg lebih baik lagi.
         Dari segala hadiah natal yg ingin aku dambakan adalah aku hanya ingin melihat kamu berubah, bukan hanya kamu tapi aku juga, kita sama-sama berjuang melawan sesuatu yg harus kita capai.<br /><br />
-        Ohya Selamat Hari Natal <i>dan juga tahun baru</i> ya Ca, Tuhan memberkati dan selalu ada dihati kamu, semoga semua doa yg kita panjatkan dikabulkan, Amin.
+        Ohya Selamat Hari Natal <i>dan tahun baru</i> ya Ca, Tuhan memberkati dan selalu ada dihati kamu, semoga semua doa yg kita panjatkan dikabulkan, Amin.
       </p>
     </div>
     </section>
