@@ -25,14 +25,14 @@ function DetailPage() {
         Seharusnya aku tidak perlu khawatir karena ada banyak yg ingin menjaga kamu dengan baik, tapi entah kenapa aku gak bisa tenang, selalu ada rasa gundah di hati.
         Tak terasa sudah sangat lama aku merasakan hal yang sangat tidak menyenangkan dalam hati yang penuh bergejolak dengan rasa marah, cemas, tanpa ada henti yg terkadang emosi ini gak bisa aku tahan.
         Aku sempat berandai kapan ini akan berakhir, perasaan yg gak nyaman ini. Aku tinggal di tempat kelahiranku disini dan ini baru pertama kali nya aku merasakan seperti bukan tinggal di rumah dimana aku bisa pulang dengan nyaman.
-        Aku sampai berkeingin untuk keluar dari rumah ini, dan tidak pernah kembali dan mencari rumah baru yg nyaman untuk pulang.
-        Ohya aku terkadang mengetahui pesan yg kamu sampaikan entah ini hanya firasat atau memang hanya kebetulan, aku gk bisa memahaminya. Kamu mungkin cuman gak tega karena aku telah melakukan beberapa hal, mungkin sekarang aku telah mengetahuinya kalo perasaan kamu bukan untukku, atau mungkin sejak dulu.<br />
+        Aku sampai berkeinginan untuk keluar dari rumah ini, dan tidak pernah kembali dan mencari rumah baru yg nyaman untuk pulang.
+        Ohya aku terkadang mengetahui pesan yg kamu sampaikan entah ini hanya firasat atau memang hanya kebetulan, entah dapat dipercaya atau tidak, aku gk bisa memahaminya. Kamu mungkin cuman gak tega karena aku telah melakukan beberapa hal, mungkin sekarang aku telah mengetahuinya kalo perasaan kamu bukan untukku, atau mungkin sejak dulu.<br />
         Dari kenyataan ini aku dapat melihat kalo hati seseorang gak bisa di pakasain. <i>Mungkin kamu saat ini sedang di dekati oleh yang lain kan, kamu memang cantik begitu banyak yang ingin bersama kamu dan menjaga kamu. Ternyata yang kamu cari itu bukan aku, engga ada satu pun.</i><br /><br />
         Di hari Natal yg suci ini aku berharap kamu bisa berubah dari hal-hal yg banyak ingin aku perbaiki dari kamu, ada banyak hal yg ingin aku protes ke kamu, banyak bangett. 
         Dan pada Natal ini aku dari dulu hanya berharapkan semua hal yg aku khawatirkan benar tidak adanya. 
         Dan semoga Tuhan memberikan kita anugerah untuk menjadi pribadi yg lebih baik lagi.
         Dari segala hadiah natal yg ingin aku dambakan adalah aku hanya ingin melihat kamu berubah, bukan hanya kamu tapi aku juga, kita sama-sama berjuang melawan sesuatu yg harus kita capai.<br /><br />
-        Ohya Selamat Hari Natal ya Ca, Tuhan memberkati dan selalu ada dihati kamu, semoga semua doa yg kita panjatkan dikabulkan, Amin.
+        Ohya Selamat Hari Natal <i>dan juga tahun baru</i> ya Ca, Tuhan memberkati dan selalu ada dihati kamu, semoga semua doa yg kita panjatkan dikabulkan, Amin.
       </p>
     </div>
     </section>
