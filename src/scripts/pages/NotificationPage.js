@@ -17,7 +17,7 @@ function DetailPage() {
     <section>
       <div className='note-detail'>
       <p className='note-detail__title'>Who???</p>
-      <p className='note-detail__date'>00:21. Rabu, 25 Desember 2024 & <i>22:10. Rabu, 1 Januari 2025</i></p>
+      <p className='note-detail__date'>00:21. Rabu, 25 Desember 2024 & <i>22:12. Rabu, 1 Januari 2025</i></p>
       <p className='note-detail__body'>
         Maaf kalo keberadaanku mengganggu buat kamu ya Ca. Tanpa disadari aku telah mengetahui banyak hal tentang kamu,
         tentang mereka yg pernah sangat dekat dengan kamu, sampai aku pernah berfikir apa yg kamu lakukan ke mereka sampai mereka mau seperti itu kepadamu ataupun sebaliknya. 
